@@ -1,0 +1,50 @@
+﻿#include "Camera.h"
+
+Camera* Camera::instance = NULL;
+
+Camera* Camera::GetInstance()
+{
+	if (instance == NULL)
+		instance = new Camera();
+	return instance;
+}
+
+Camera::Camera()
+{
+	this->width = SCREEN_WIDTH;
+	this->height = SCREEN_HEIGHT;
+}
+
+Rect Camera::GetRect()
+{
+	return Rect(x, y, width, height);
+}
+
+void Camera::Update(Rect mapRect)
+{
+	// Camera về phần trái của map
+	if (this->x <= 0)
+	{
+		this->x = 0;
+	}
+
+	// Camera về phần phải của map
+	else if (this->x >= mapRect.width - this->width)
+	{
+		this->x = mapRect.width - this->width;
+	}
+}
+
+void Camera::ConvertPositionToViewPort(float& x, float& y)
+{
+	D3DXMATRIX matrix;
+	D3DXMatrixIdentity(&matrix);
+	matrix._22 = -1;
+	matrix._41 = -this->x;
+	matrix._42 = this->y;
+	D3DXVECTOR4 MatrixResult;
+	auto temp = D3DXVECTOR2(x, y);
+	D3DXVec2Transform(&MatrixResult, &temp, &matrix);
+	x = MatrixResult.x;
+	y = MatrixResult.y;
+}

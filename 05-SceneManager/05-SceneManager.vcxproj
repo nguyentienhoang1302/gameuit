@@ -72,6 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\TienHoang\Documents\GitHub\gameuit\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\TienHoang\Documents\GitHub\gameuit\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\release\lib\x64;C:\Users\TienHoang\Documents\GitHub\gameuit\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\release\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
