@@ -3,24 +3,24 @@
 IntroScene::IntroScene()
 {
 	nameSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 0);
-	infoSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 1);
+	/*infoSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 1);
 	stageSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 2);
-	ninjaSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 3);
+	ninjaSprite = SpriteFactory::GetInstance()->GetSprite(INTROSCENE, 3);*/
 
 	vx = 0.25;
 	vy = 0.1;
 
-	nameSprite->posX = 100;
-	nameSprite->posY = SCREEN_HEIGHT >> 2;
+	nameSprite->posX = 0;
+	nameSprite->posY = SCREEN_HEIGHT;
 
-	infoSprite->posX = SCREEN_WIDTH >> 1;
+	/*infoSprite->posX = SCREEN_WIDTH >> 1;
 	infoSprite->posY = 300;
 
 	ninjaSprite->posX = 400;
 	ninjaSprite->posY = (SCREEN_HEIGHT >> 1) + 30;
 
 	stageSprite->posX = 500;
-	stageSprite->posY = (SCREEN_HEIGHT >> 1) + 30;
+	stageSprite->posY = (SCREEN_HEIGHT >> 1) + 30;*/
 
 	Sound::getInstance()->play("intro", true);
 }
@@ -33,9 +33,9 @@ IntroScene::~IntroScene()
 void IntroScene::Render()
 {
 	nameSprite->ScaleRender(nameSprite->posX, nameSprite->posY, 0.7, 0.7);
-	infoSprite->ScaleRender(infoSprite->posX, infoSprite->posY, 0.7, 0.7);
-	ninjaSprite->ScaleRender(ninjaSprite->posX, ninjaSprite->posY, 0.7, 0.7);
-	stageSprite->ScaleRender(stageSprite->posX, stageSprite->posY, 0.7, 0.7);
+	//infoSprite->ScaleRender(infoSprite->posX, infoSprite->posY, 0.7, 0.7);
+	//ninjaSprite->ScaleRender(ninjaSprite->posX, ninjaSprite->posY, 0.7, 0.7);
+	//stageSprite->ScaleRender(stageSprite->posX, stageSprite->posY, 0.7, 0.7);
 }
 
 void IntroScene::Update(float dt)
@@ -44,19 +44,19 @@ void IntroScene::Update(float dt)
 	{
 		nameSprite->posX = SCREEN_WIDTH >> 1;
 
-		infoSprite->posY -= vy * dt;
+		/*infoSprite->posY -= vy * dt;
 
 		if (infoSprite->posY <= 190)
 		{
 			infoSprite->posY = 190;
-		}
+		}*/
 	}
 	else
 	{
 		nameSprite->posX += vx * dt;
 	}
 
-	if (ninjaSprite->posX <= 90)
+	/*if (ninjaSprite->posX <= 90)
 	{
 		ninjaSprite->posX = 90;
 	}
@@ -69,7 +69,7 @@ void IntroScene::Update(float dt)
 	else
 	{
 		stageSprite->posX -= vx * dt;
-	}
+	}*/
 }
 
 void IntroScene::OnKeyDown(int key)

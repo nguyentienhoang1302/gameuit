@@ -226,10 +226,10 @@ void SpriteFactory::LoadResources()
 	sprites->AddSprite(new FontSprite('@', 512, 38, 525, 46)); //bottom-right
 
 	//Add intro sprite
-	sprites->AddSprite(new Sprite(INTROSCENE, 0, 0, 243, 60));
-	sprites->AddSprite(new Sprite(INTROSCENE, 0, 145, 243, 196));
-	sprites->AddSprite(new Sprite(INTROSCENE, 118, 70, 218, 138));
-	sprites->AddSprite(new Sprite(INTROSCENE, 12, 59, 118, 147));
+	sprites->AddSprite(new Sprite(INTROSCENE, 0, 0, 256, 224));
+	//sprites->AddSprite(new Sprite(INTROSCENE, 0, 145, 243, 196));
+	//sprites->AddSprite(new Sprite(INTROSCENE, 118, 70, 218, 138));
+	//sprites->AddSprite(new Sprite(INTROSCENE, 12, 59, 118, 147));
 
 	//Add end game sprite
 	sprites->AddSprite(new Sprite(ENDSCENE, 74, 98, 179, 152));
