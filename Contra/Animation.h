@@ -10,7 +10,7 @@ Luu The Vinh
 
 #include <vector>
 #include <stdarg.h>
-#include "define.h"
+#include "Config.h"
 #include "Sprite.h"
 #include "..\objects\IComponent.h"
 #include "SpriteManager.h"
