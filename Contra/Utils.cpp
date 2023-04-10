@@ -1,4 +1,4 @@
-﻿#include "utils.h"
+﻿#include "Utils.h"
 
 // hệ decac
 bool isRectangleIntersected(RECT rect1, RECT rect2)
