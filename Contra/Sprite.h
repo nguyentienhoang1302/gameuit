@@ -2,7 +2,7 @@
 #define __SPRITE_H__
 
 #include <list>
-#include "Config"
+#include "Config.h"
 #include "DeviceManager.h"
 #include "Texture.h"
 #include "Viewport.h"
