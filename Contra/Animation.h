@@ -12,7 +12,7 @@ Luu The Vinh
 #include <stdarg.h>
 #include "Config.h"
 #include "Sprite.h"
-#include "..\objects\IComponent.h"
+#include "IComponent.h"
 #include "SpriteManager.h"
 
 US_FRAMEWORK

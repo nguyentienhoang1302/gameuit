@@ -2,7 +2,7 @@
 #define __TEXT_H__
 
 #include <string>
-#include "define.h"
+#include "Config.h"
 #include "DeviceManager.h"
 #include "Transformable.h"
 

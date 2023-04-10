@@ -38,7 +38,7 @@
 #define __EVENT_H__
 #include <vector>
 using namespace std;
-#include "define.h"
+#include "Config.h"
 #include <functional>
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

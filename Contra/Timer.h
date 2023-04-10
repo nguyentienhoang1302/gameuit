@@ -1,7 +1,7 @@
 ﻿#ifndef __GAMETIME_H__
 #define __GAMETIME_H__
 
-#include "define.h"
+#include "Config.h"
 #include "TimeSpan.h"
 
 NS_FRAMEWORK

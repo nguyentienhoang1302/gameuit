@@ -9,7 +9,7 @@
 #ifndef __texture_H__
 #define __texture_H__
 
-#include "define.h"
+#include "Config.h"
 #include "DeviceManager.h"
 #include "Viewport.h"
 
