@@ -2,11 +2,12 @@
 
 #ifndef __SOUND_MANAGER__
 #define __SOUND_MANAGER__
-#include "..\define.h"
-#include "..\..\Game.h"
+#include "Config.h"
+#include "Game.h"
 #include "..\..\dxaudio.h"
 
 #include <map>
+#include <rpcasync.h>
 using namespace std;
 class SoundManager
 {

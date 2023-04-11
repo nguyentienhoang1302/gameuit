@@ -5,7 +5,7 @@
 // http://www.cplusplus.com/reference/map/map
 #include <fstream>
 
-#include "define.h"
+#include "Config.h"
 #include "Sprite.h"
 #include "..\pugixml-1.7\src\pugixml.hpp"
 

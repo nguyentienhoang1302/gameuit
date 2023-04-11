@@ -1,12 +1,12 @@
 ﻿#ifndef __BEGIN_STAGE3__
 #define __BEGIN_STAGE3__
 
-#include "..\..\FrameWork\Sprite.h"
-#include "..\..\FrameWork\SpriteManager.h"
-#include "..\..\FrameWork\Managers\SoundManager.h"
-#include "..\..\FrameWork\InputController.h"
-#include "..\..\FrameWork\StopWatch.h"
-#include "..\TextSprite.h"
+#include "Sprite.h"
+#include "SpriteManager.h"
+#include "SoundManager.h"
+#include "InputController.h"
+#include "StopWatch.h"
+#include "TextSprite.h"
 #include "Stage3.h"
 
 class HighScore

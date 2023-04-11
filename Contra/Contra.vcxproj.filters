@@ -49,6 +49,12 @@
     <Filter Include="Header Files\Game\Objects">
       <UniqueIdentifier>{36e0e78c-9f8a-4d0f-95e4-56719205e15f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Game\Manger">
+      <UniqueIdentifier>{01233fc2-49d7-4924-8934-39fb67d855ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Manager">
+      <UniqueIdentifier>{76978bfa-55d5-49f7-8a59-9f4df3300fdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h">
@@ -57,7 +63,7 @@
     <ClInclude Include="Event.h">
       <Filter>Header Files\Framework</Filter>
     </ClInclude>
-    <ClInclude Include="Timer.h">
+    <ClInclude Include="GameTime.h">
       <Filter>Header Files\Framework</Filter>
     </ClInclude>
     <ClInclude Include="Graphic.h">
@@ -105,7 +111,7 @@
     <ClInclude Include="Game.h">
       <Filter>Header Files\Game</Filter>
     </ClInclude>
-    <ClInclude Include="Contra.h">
+    <ClInclude Include="ContraGame.h">
       <Filter>Header Files\Game</Filter>
     </ClInclude>
     <ClInclude Include="BeginPlayScene.h">
@@ -129,6 +135,15 @@
     <ClInclude Include="Stage3.h">
       <Filter>Header Files\Game\Scenes</Filter>
     </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>Header Files\Game\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animation.h">
@@ -140,7 +155,7 @@
     <ClCompile Include="Event.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
-    <ClCompile Include="Timer.cpp">
+    <ClCompile Include="GameTime.cpp">
       <Filter>Source Files\Framework</Filter>
     </ClCompile>
     <ClCompile Include="Graphic.cpp">
@@ -185,7 +200,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Contra.cpp">
+    <ClCompile Include="ContraGame.cpp">
       <Filter>Source Files\Game</Filter>
     </ClCompile>
     <ClCompile Include="BeginPlayScene.cpp">
@@ -208,6 +223,21 @@
     </ClCompile>
     <ClCompile Include="Stage3.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Game\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Game\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Source Files\Game\Manger</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.h">
+      <Filter>Header Files\Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Source Files\Game\Manger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

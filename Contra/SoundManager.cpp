@@ -1,6 +1,4 @@
-﻿
-
-#include "SoundManager.h"
+﻿#include "SoundManager.h"
 
 SoundManager* SoundManager::_instance;
 
