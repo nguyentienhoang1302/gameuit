@@ -13,8 +13,310 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Framework">
-      <UniqueIdentifier>{9edbeb80-85fe-4090-b97c-fe8eafb4984a}</UniqueIdentifier>
+    <Filter Include="Header Files\Configs">
+      <UniqueIdentifier>{e17a3955-ca2d-4f80-b838-33ce62342ef9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{780b32f2-0e7d-4404-a96a-f7a724be597a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{fd389c84-9803-488d-a5c9-bbf48afae4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Image">
+      <UniqueIdentifier>{cea555ab-3e66-4f53-a94d-7861792cfc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{b288b642-1c9f-4c5d-bdbf-2d2804f9011e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Maps">
+      <UniqueIdentifier>{98a56fc5-2440-4a3b-9db1-dcffce595f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{399e39f6-13b3-4128-ac6f-adb80dc35d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{26421355-f9a9-495c-8d33-61d16c325f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{7ef86c49-1843-45d5-b567-082503d53805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Scenes">
+      <UniqueIdentifier>{229fdeb7-3a88-43f9-b8c4-3caf4d80b383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Scenes">
+      <UniqueIdentifier>{78af27b5-f44a-487f-a3d3-c0a40f67ed55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Objects">
+      <UniqueIdentifier>{36e0e78c-9f8a-4d0f-95e4-56719205e15f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenario.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSpan.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformable.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Contra.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginPlayScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenario.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatch.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSpan.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformable.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Contra.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginPlayScene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionScene.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Source Files\Game\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Contra.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\aircraft.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\BeginState3.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bill_animation.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\blank.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage1.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage3.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\box.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bridge.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Bullets.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon_all.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Explosion.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Falcon.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\fire.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\GameOver.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\grass.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\intro.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Life.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rifleman.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rockfall.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ScubaSoldier.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ShadowBeast.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Soldier.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\stage3_elements.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\tuts_layer.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Wall_turret.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\wall_turret_all.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\yellowfalcon.png">
+      <Filter>Resource Files\Image</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontEx.png">
+      <Filter>Resource Files\Fonts</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontFull.png">
+      <Filter>Resource Files\Fonts</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage1.png">
+      <Filter>Resource Files\Maps</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage3.png">
+      <Filter>Resource Files\Maps</Filter>
+    </Image>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\TuaRua.png">
+      <Filter>Resource Files\Maps</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

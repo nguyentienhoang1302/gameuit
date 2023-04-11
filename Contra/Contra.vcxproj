@@ -17,7 +17,6 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -53,27 +52,28 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared" >
+  <ImportGroup Label="Shared">
   </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    </ImportGroup>
-
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -84,6 +84,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;dsound.lib;dxerr.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -130,9 +131,111 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BeginPlayScene.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Contra.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameOverScene.h" />
+    <ClInclude Include="Graphic.h" />
+    <ClInclude Include="IComponent.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="PlayScene.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scenario.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SelectionScene.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="StopWatch.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TimeSpan.h" />
+    <ClInclude Include="Transformable.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Viewport.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Animation.h" />
+    <ClCompile Include="BeginPlayScene.cpp" />
+    <ClCompile Include="Contra.cpp" />
+    <ClCompile Include="Event.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameOverScene.cpp" />
+    <ClCompile Include="Graphic.cpp" />
+    <ClCompile Include="IComponent.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="Scenario.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SelectionScene.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="StopWatch.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TimeSpan.cpp" />
+    <ClCompile Include="Transformable.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Contra.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontEx.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontFull.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\aircraft.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\BeginState3.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bill_animation.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\blank.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage1.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage3.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\box.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bridge.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Bullets.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon_all.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Explosion.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Falcon.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\fire.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\GameOver.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\grass.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\intro.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Life.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rifleman.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rockfall.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ScubaSoldier.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ShadowBeast.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Soldier.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\stage3_elements.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\tuts_layer.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Wall_turret.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\wall_turret_all.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Images\yellowfalcon.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage1.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage3.png" />
+    <Image Include="..\..\NMGAME\WinGame\Resources\Map\TuaRua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets" Condition="Exists('..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.DXSDK.D3DX.9.29.952.8\build\native\Microsoft.DXSDK.D3DX.targets'))" />
+  </Target>
 </Project>

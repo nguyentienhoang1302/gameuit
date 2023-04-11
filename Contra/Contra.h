@@ -4,7 +4,7 @@
 #include "Game.h"
 #include "FrameWork/Managers/SoundManager.h"
 #include "FrameWork/Managers/SceneManager.h"
-#include "Scenes/PlayScene.h"
+#include "PlayScene.h"
 #include "Scenes/IntroScene.h"
 
 class ContraGame : public Game
