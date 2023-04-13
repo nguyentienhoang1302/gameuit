@@ -312,13 +312,13 @@
       <Filter>Header Files\Game\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Game\Objects\EmptyObject.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Game\Objects\Item.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game\Objects</Filter>
     </ClInclude>
     <ClInclude Include="Game\Objects\Land.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Game\Objects</Filter>
     </ClInclude>
     <ClInclude Include="debug.h">
       <Filter>Header Files</Filter>
