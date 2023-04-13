@@ -16,23 +16,11 @@
     <Filter Include="Header Files\Configs">
       <UniqueIdentifier>{e17a3955-ca2d-4f80-b838-33ce62342ef9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Framework">
+    <Filter Include="Header Files\Graphics">
       <UniqueIdentifier>{780b32f2-0e7d-4404-a96a-f7a724be597a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Framework">
+    <Filter Include="Source Files\Graphics">
       <UniqueIdentifier>{fd389c84-9803-488d-a5c9-bbf48afae4e5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Image">
-      <UniqueIdentifier>{cea555ab-3e66-4f53-a94d-7861792cfc50}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Fonts">
-      <UniqueIdentifier>{b288b642-1c9f-4c5d-bdbf-2d2804f9011e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Maps">
-      <UniqueIdentifier>{98a56fc5-2440-4a3b-9db1-dcffce595f34}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\Sounds">
-      <UniqueIdentifier>{399e39f6-13b3-4128-ac6f-adb80dc35d01}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Game">
       <UniqueIdentifier>{26421355-f9a9-495c-8d33-61d16c325f9e}</UniqueIdentifier>
@@ -49,196 +37,469 @@
     <Filter Include="Header Files\Game\Objects">
       <UniqueIdentifier>{36e0e78c-9f8a-4d0f-95e4-56719205e15f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Game\Manger">
+    <Filter Include="Source Files\Game\Objects">
       <UniqueIdentifier>{01233fc2-49d7-4924-8934-39fb67d855ed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Game\Manager">
+    <Filter Include="Header Files\Game\Managers">
       <UniqueIdentifier>{76978bfa-55d5-49f7-8a59-9f4df3300fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Managers">
+      <UniqueIdentifier>{0f4e58e4-5c1a-45dc-9aa8-fe2a7de7c358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Objects\Enemies">
+      <UniqueIdentifier>{b1bb8dda-dfd3-48ec-a0a2-9170d34c38bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Objects\Enemies">
+      <UniqueIdentifier>{cb71815b-9f06-47c1-bc1e-b8aec4495d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Objects\Bullets">
+      <UniqueIdentifier>{8fb635d1-e0b2-408b-97d0-d810c69aabdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Objects\Bullets">
+      <UniqueIdentifier>{1f246f3c-efcf-40b2-8d47-cbd0ed5216ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tiles">
+      <UniqueIdentifier>{1aed03ab-9b62-40d9-9ddd-9071b08b78d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tiles">
+      <UniqueIdentifier>{134011e1-6144-447f-961f-39967a6cc735}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Config.h">
-      <Filter>Header Files\Configs</Filter>
-    </ClInclude>
-    <ClInclude Include="Event.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="GameTime.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphic.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Scenario.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="StopWatch.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Surface.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Text.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="TimeSpan.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Transformable.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Viewport.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Utils.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Debug.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="IComponent.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
-      <Filter>Header Files\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="ContraGame.h">
-      <Filter>Header Files\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="BeginPlayScene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="GameOverScene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="IntroScene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayScene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="SelectionScene.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="Stage3.h">
-      <Filter>Header Files\Game\Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="SoundManager.h">
-      <Filter>Header Files\Game\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Header Files\Game\Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="DeviceManager.h">
-      <Filter>Header Files\Game\Manager</Filter>
-    </ClInclude>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Animation.h">
-      <Filter>Header Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Animation.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Event.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="GameTime.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Graphic.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Scenario.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="StopWatch.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Surface.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Text.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="TimeSpan.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Transformable.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Viewport.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Utils.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="IComponent.cpp">
-      <Filter>Source Files\Framework</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>Source Files\Game</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ContraGame.cpp">
+    <ClCompile Include="Game\Game.cpp">
       <Filter>Source Files\Game</Filter>
     </ClCompile>
-    <ClCompile Include="BeginPlayScene.cpp">
+    <ClCompile Include="Game\Objects\Bill.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Falcon.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\AirCraft.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Explosion.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bridge.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="dxaudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiles\ObjectFactory.cpp">
+      <Filter>Source Files\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\EmptyObject.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Fire.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Item.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Land.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\LifeUI.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\RockFly.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Score.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Help.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ContraGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Animation.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Managers\DeviceManager.cpp">
+      <Filter>Source Files\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Managers\SceneManager.cpp">
+      <Filter>Source Files\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Managers\SoundManager.cpp">
+      <Filter>Source Files\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Managers\SpriteManager.cpp">
+      <Filter>Source Files\Game\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Viewport.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\BaseObject.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\BeginPlayScene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="GameOverScene.cpp">
+    <ClCompile Include="Game\Scenes\GameOverScene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="IntroScene.cpp">
+    <ClCompile Include="Game\Scenes\IntroScene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="PlayScene.cpp">
+    <ClCompile Include="Game\Scenes\PlayScene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Scene.cpp">
+    <ClCompile Include="Game\Scenes\Scene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="SelectionScene.cpp">
+    <ClCompile Include="Game\Scenes\SelectionScene.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Stage3.cpp">
+    <ClCompile Include="Game\Scenes\Stage3.cpp">
       <Filter>Source Files\Game\Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="SoundManager.cpp">
-      <Filter>Source Files\Game\Manger</Filter>
+    <ClCompile Include="Game\Objects\TextSprite.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files\Game\Manger</Filter>
+    <ClCompile Include="Tiles\Map.cpp">
+      <Filter>Source Files\Tiles</Filter>
     </ClCompile>
-    <ClCompile Include="DeviceManager.cpp">
-      <Filter>Source Files\Game\Manger</Filter>
+    <ClCompile Include="Tiles\Tile.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteManager.h">
-      <Filter>Header Files\Game\Manager</Filter>
+    <ClCompile Include="Tiles\TileSet.cpp">
+      <Filter>Source Files\Tiles</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteManager.cpp">
-      <Filter>Source Files\Game\Manger</Filter>
+    <ClCompile Include="Graphics\Event.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\GameTime.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\InputController.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Scenario.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Surface.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Transformable.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Sprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\StopWatch.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Text.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextBitmap.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TimeSpan.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\Beast_Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\BulletManager.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\F_Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\L_Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\M_Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Bullets\S_Bullet.cpp">
+      <Filter>Source Files\Game\Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\CollisionBody.cpp">
+      <Filter>Source Files\Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\BaseEnemy.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\Boss.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\ObjectCreator.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\RedCannon.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\Rifleman.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\RockCreator.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\RockFall.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\ScubaSoldier.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\ShadowBeast.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\Soldier.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\Enemies\WallTurret.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Objects\IComponent.cpp">
+      <Filter>Source Files\Game\Objects\Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Managers\DeviceManager.h">
+      <Filter>Header Files\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Managers\SpriteManager.h">
+      <Filter>Header Files\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Managers\SceneManager.h">
+      <Filter>Header Files\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ContraGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bill.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Falcon.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Explosion.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\AirCraft.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bridge.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\EmptyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Land.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dxaudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Managers\SoundManager.h">
+      <Filter>Header Files\Game\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles\config.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles\Map.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles\ObjectFactory.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles\TileSet.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Fire.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\LifeUI.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\RockFly.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Help.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Animation.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Event.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GameTime.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\InputController.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Scenario.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Surface.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Transformable.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Sprite.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\StopWatch.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Text.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextBitmap.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Texture.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TimeSpan.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Viewport.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\BaseObject.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\CollisionBody.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\IComponent.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\BeginPlayScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\GameOverScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\IntroScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\PlayScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Scene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\SelectionScene.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Stage3.h">
+      <Filter>Header Files\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Score.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\TextSprite.h">
+      <Filter>Header Files\Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\Beast_Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\BulletManager.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\F_Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\L_Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\M_Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Bullets\S_Bullet.h">
+      <Filter>Header Files\Game\Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\BaseEnemy.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\Boss.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\ObjectCreator.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\RedCannon.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\Rifleman.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\RockCreator.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\RockFall.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\ScubaSoldier.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\ShadowBeast.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\Soldier.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Objects\Enemies\WallTurret.h">
+      <Filter>Header Files\Game\Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles\Tile.h">
+      <Filter>Header Files\Tiles</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Contra.rc">
@@ -246,107 +507,104 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\aircraft.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Fonts\fontEx.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\BeginState3.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Fonts\fontFull.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bill_animation.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\aircraft.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\blank.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\BeginState3.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage1.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\bill_animation.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\boss_stage3.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\blank.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\box.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\boss_stage1.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\bridge.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\boss_stage3.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Bullets.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\box.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\bridge.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Cannon_all.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Bullets.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Explosion.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Cannon.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Falcon.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Cannon_all.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\fire.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Explosion.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\GameOver.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Falcon.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\grass.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\fire.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\intro.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\GameOver.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Life.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\grass.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rifleman.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\intro.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\rockfall.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Life.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ScubaSoldier.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\rifleman.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\ShadowBeast.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\rockfall.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Soldier.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\ScubaSoldier.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\stage3_elements.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\ShadowBeast.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\tuts_layer.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Soldier.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\Wall_turret.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\stage3_elements.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\wall_turret_all.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\tuts_layer.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Images\yellowfalcon.png">
-      <Filter>Resource Files\Image</Filter>
+    <Image Include="Resources\Images\Wall_turret.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontEx.png">
-      <Filter>Resource Files\Fonts</Filter>
+    <Image Include="Resources\Images\wall_turret_all.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Fonts\fontFull.png">
-      <Filter>Resource Files\Fonts</Filter>
+    <Image Include="Resources\Images\yellowfalcon.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage1.png">
-      <Filter>Resource Files\Maps</Filter>
+    <Image Include="Resources\Map\stage1.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Map\stage3.png">
-      <Filter>Resource Files\Maps</Filter>
+    <Image Include="Resources\Map\stage3.png">
+      <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="..\..\NMGAME\WinGame\Resources\Map\TuaRua.png">
-      <Filter>Resource Files\Maps</Filter>
+    <Image Include="Resources\Map\TuaRua.png">
+      <Filter>Resource Files</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
