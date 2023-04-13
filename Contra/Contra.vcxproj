@@ -312,9 +312,9 @@
     <Image Include="Resources\Images\Wall_turret.png" />
     <Image Include="Resources\Images\wall_turret_all.png" />
     <Image Include="Resources\Images\yellowfalcon.png" />
-    <Image Include="Resources\Map\stage1.png" />
-    <Image Include="Resources\Map\stage3.png" />
-    <Image Include="Resources\Map\TuaRua.png" />
+    <Image Include="Resources\Maps\stage1.png" />
+    <Image Include="Resources\Maps\stage3.png" />
+    <Image Include="Resources\Maps\TuaRua.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -64,6 +64,15 @@
     <Filter Include="Header Files\Tiles">
       <UniqueIdentifier>{134011e1-6144-447f-961f-39967a6cc735}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{1fc62372-c91c-491c-a874-f082bf18dd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{bacd94fe-5339-48e0-a73b-2394e3e187e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Maps">
+      <UniqueIdentifier>{09d2ecd2-a17d-4652-b05d-49ddda279182}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -508,103 +517,103 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\Fonts\fontEx.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Fonts</Filter>
     </Image>
     <Image Include="Resources\Fonts\fontFull.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Fonts</Filter>
     </Image>
     <Image Include="Resources\Images\aircraft.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\BeginState3.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\bill_animation.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\blank.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\boss_stage1.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\boss_stage3.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\box.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\bridge.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Bullets.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Cannon.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Cannon_all.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Explosion.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Falcon.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\fire.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\GameOver.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\grass.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\intro.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Life.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\rifleman.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\rockfall.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\ScubaSoldier.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\ShadowBeast.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Soldier.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\stage3_elements.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\tuts_layer.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\Wall_turret.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\wall_turret_all.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
     <Image Include="Resources\Images\yellowfalcon.png">
-      <Filter>Resource Files</Filter>
+      <Filter>Resource Files\Images</Filter>
     </Image>
-    <Image Include="Resources\Map\stage1.png">
-      <Filter>Resource Files</Filter>
+    <Image Include="Resources\Maps\stage1.png">
+      <Filter>Resource Files\Maps</Filter>
     </Image>
-    <Image Include="Resources\Map\stage3.png">
-      <Filter>Resource Files</Filter>
+    <Image Include="Resources\Maps\stage3.png">
+      <Filter>Resource Files\Maps</Filter>
     </Image>
-    <Image Include="Resources\Map\TuaRua.png">
-      <Filter>Resource Files</Filter>
+    <Image Include="Resources\Maps\TuaRua.png">
+      <Filter>Resource Files\Maps</Filter>
     </Image>
   </ItemGroup>
 </Project>
