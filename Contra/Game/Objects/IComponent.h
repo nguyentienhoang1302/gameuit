@@ -1,8 +1,8 @@
 ﻿
 #ifndef __ICOMPONENT_H__
 #define __ICOMPONENT_H__
-#include "..\FrameWork\define.h"
-#include "..\FrameWork\Sprite.h"
+#include "../../Const.h"
+#include "../../Graphics/Sprite.h"
 #include <numeric>
 #include <map>
 using namespace std;

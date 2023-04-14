@@ -1,9 +1,9 @@
 ﻿#ifndef __BULLET_H__
 #define __BULLET_H__
 
-#include "../../FrameWork/define.h"
-#include "../../FrameWork/Managers/SceneManager.h"
-#include "../../FrameWork/StopWatch.h"
+#include "../../../Const.h"
+#include "../../Managers/SceneManager.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../Enemies/BaseEnemy.h"
 #include "../BaseObject.h"
 #include "../IComponent.h"

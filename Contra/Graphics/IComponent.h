@@ -1,7 +1,7 @@
 ﻿
 #ifndef __ICOMPONENT_H__
 #define __ICOMPONENT_H__
-#include "Config.h"
+#include "../../Const.h"
 #include "Sprite.h"
 #include <numeric>
 #include <map>
