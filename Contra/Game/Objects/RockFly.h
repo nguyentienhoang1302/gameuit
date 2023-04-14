@@ -1,7 +1,7 @@
 ﻿#ifndef __ROCKFLY_H__
 #define __ROCKFLY_H__
 
-#include "../FrameWork/Animation.h"
+#include "../../Graphics/Animation.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"

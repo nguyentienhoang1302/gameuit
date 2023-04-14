@@ -1,6 +1,6 @@
 ﻿
 #include "IComponent.h"
-#include "..\debug.h"
+#include "../../Const.h"
 #pragma region Movement
 Movement::Movement(GVector2 accel, GVector2 veloc, Sprite* refSprite)
 {

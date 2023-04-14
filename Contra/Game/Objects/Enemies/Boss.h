@@ -3,9 +3,9 @@
 #define __BOSS_H__
 
 
-#include "../../FrameWork/Animation.h"
-#include "../../FrameWork/StopWatch.h"
-#include "../../FrameWork/Managers/SoundManager.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
+#include "../../Managers/SoundManager.h"
 #include "../Bullets/Bullet.h"
 #include "../Bullets/BulletManager.h"
 #include "BaseEnemy.h"

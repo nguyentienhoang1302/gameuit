@@ -3,7 +3,7 @@
 #ifndef __LAND_H__
 #define __LAND_H__
 
-#include "..\FrameWork\define.h"
+#include "../../Const.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"

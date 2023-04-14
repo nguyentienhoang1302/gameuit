@@ -1,11 +1,11 @@
 ﻿#ifndef __FIRE__
 #define __FIRE__
 
-#include "../FrameWork/Animation.h"
+#include "../../Graphics/Animation.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"
-#include "Scenes/PlayScene.h"
+#include "../Scenes/PlayScene.h"
 
 using namespace std;
 

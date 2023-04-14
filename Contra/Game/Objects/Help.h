@@ -4,7 +4,7 @@
 #ifndef __HELP_H__
 #define __HELP_H__
 
-#include "../FrameWork/StopWatch.h"
+#include "../../Graphics/StopWatch.h"
 #include "TextSprite.h"
 #include <vector>
 

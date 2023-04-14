@@ -14,9 +14,9 @@ update 30/11/2015
 
 #include "../../Const.h"
 #include "../../Graphics/Animation.h"
-#include "./../Graphics/InputController.h"
+#include "../../Graphics/InputController.h"
 #include "../Managers/SceneManager.h"
-#include "./../Graphics/StopWatch.h"
+#include "../../Graphics/StopWatch.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"

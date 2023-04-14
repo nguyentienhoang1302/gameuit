@@ -3,7 +3,7 @@
 
 #include "../../Const.h"
 #include "../Managers/SoundManager.h"
-#include "../../Graphics/"
+#include "../../Graphics/Sprite.h"
 
 #include "../TextSprite.h"
 

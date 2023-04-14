@@ -1,8 +1,8 @@
 ﻿#ifndef __OBJECTCREATOR_H__
 #define __OBJECTCREATOR_H__
 
-#include "../../FrameWork/define.h"
-#include "../../FrameWork/StopWatch.h"
+#include "../../../Const.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../BaseObject.h"
 #include "../EmptyObject.h"
 #include "Soldier.h"

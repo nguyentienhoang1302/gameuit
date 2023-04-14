@@ -2,9 +2,9 @@
 #ifndef __WALL_TURRET_H__
 #define __WALL_TURRET_H__
 
-#include "../../FrameWork/Animation.h"
-#include "../../FrameWork/StopWatch.h"
-#include "../Scenes/PlayScene.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
+#include "../../Scenes/PlayScene.h"
 #include "../Bullets/Bullet.h"
 #include "../CollisionBody.h"
 #include "../IComponent.h"

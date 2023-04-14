@@ -1,11 +1,11 @@
 ﻿#ifndef _RUNNINGSOLDIER_H
 #define _RUNNINGSOLDIER_H
 
-#include "../../FrameWork/Animation.h"
-#include "../../FrameWork/StopWatch.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../Explosion.h"
 #include "../IComponent.h"
-#include "../Scenes/PlayScene.h"
+#include "../../Scenes/PlayScene.h"
 #include "BaseEnemy.h"
 
 using namespace std;

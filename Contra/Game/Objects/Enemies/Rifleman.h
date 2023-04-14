@@ -5,7 +5,7 @@
 #include "../../../Graphics/StopWatch.h"
 #include "../Bullets/BulletManager.h"
 #include "../Bullets/Bullet.h"
-#include "../Scenes/PlayScene.h"
+#include "./../../Scenes/PlayScene.h"
 #include "../CollisionBody.h"
 #include "../IComponent.h"
 #include "BaseEnemy.h"

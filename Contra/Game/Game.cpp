@@ -1,12 +1,12 @@
 ﻿#include <string>
 #include "Game.h"
-#include "FrameWork\Event.h"
+#include "../Graphics/Event.h"
 
 using namespace std;
 US_FRAMEWORK
 
 #if _DEBUG
-#include "debug.h"	// for print to output. call: __debugoutput()
+#include "../Debug.h"	// for print to output. call: __debugoutput()
 #endif // _DEBUG
 
 int Game::isExit = 0;

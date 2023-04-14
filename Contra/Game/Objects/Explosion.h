@@ -3,7 +3,7 @@
 #ifndef __EXPLOSION_H__
 #define __EXPLOSION_H__
 #include "BaseObject.h"
-#include "..\FrameWork\Animation.h"
+#include "../../Graphics/Animation.h"
 
 #define SPEED_ANIMATION			0.07f
 class Explosion : public BaseObject
