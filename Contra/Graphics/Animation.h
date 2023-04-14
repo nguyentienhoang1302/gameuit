@@ -11,7 +11,7 @@ Luu The Vinh
 #include <vector>
 #include <stdarg.h>
 #include "../Const.h"
-#include "Sprite.h"
+#include "./Sprite.h"
 #include "IComponent.h"
 #include "../Game/Managers/SpriteManager.h"
 

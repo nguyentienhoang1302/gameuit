@@ -4,9 +4,9 @@
 #include <list>
 #include "../Const.h"
 #include "../Game/Managers/DeviceManager.h"
-#include "Texture.h"
-#include "Viewport.h"
-#include "Transformable.h"
+#include "./Texture.h"
+#include "./Viewport.h"
+#include "./Transformable.h"
 
 using namespace std;
 
