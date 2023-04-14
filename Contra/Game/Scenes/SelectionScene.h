@@ -1,9 +1,9 @@
 #ifndef __SELECTION_SCENE_H__
 #define __SELECTION_SCENE_H__
 
-#include "../../FrameWork/define.h"
-#include "../../FrameWork/Managers/SoundManager.h"
-#include "../../FrameWork/Sprite.h"
+#include "../../Const.h"
+#include "../Managers/SoundManager.h"
+#include "../../Graphics/"
 
 #include "../TextSprite.h"
 

@@ -7,7 +7,7 @@
 
 #include "../../Const.h"
 #include "../../Graphics/Sprite.h"
-#include "..\pugixml-1.7\src\pugixml.hpp"
+#include "..\..\Libs\pugixml-1.7\src\pugixml.hpp"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

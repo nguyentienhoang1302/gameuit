@@ -5,12 +5,12 @@
 #ifndef __ROCKFALL_H__
 #define __ROCKFALL_H__
 
-#include "../../FrameWork/Animation.h"
-#include "../../FrameWork/StopWatch.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../CollisionBody.h"
 #include "../IComponent.h"
 #include "../Explosion.h"
-#include "../Scenes/PlayScene.h"
+#include "../../Scenes/PlayScene.h"
 #include "BaseEnemy.h"
 
 

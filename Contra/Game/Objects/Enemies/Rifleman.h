@@ -1,8 +1,8 @@
 ﻿#ifndef _RIFLEMAN_H
 #define _RIFLEMAN_H
 
-#include "../../FrameWork/Animation.h"
-#include "../../Framework/StopWatch.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../Bullets/BulletManager.h"
 #include "../Bullets/Bullet.h"
 #include "../Scenes/PlayScene.h"

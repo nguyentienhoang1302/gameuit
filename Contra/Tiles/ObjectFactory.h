@@ -3,8 +3,8 @@
 #ifndef __OBJECT_READER__
 #define __OBJECT_READER__
 
-#include "../FrameWork/define.h"
-#include "../pugixml-1.7/src/pugixml.hpp"
+#include "../Const.h"
+#include "../Libs/pugixml-1.7/src/pugixml.hpp"
 #include "../objects/Enemies/Rifleman.h"
 #include "../objects/Enemies/ObjectCreator.h"
 #include "../objects/BaseObject.h"

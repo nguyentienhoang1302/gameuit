@@ -3,9 +3,9 @@
 #ifndef __ROCK_CREATOR__
 #define __ROCK_CREATOR__
 
-#include "../../FrameWork/StopWatch.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../BaseObject.h"
-#include "../Scenes/Stage3.h"
+#include "../../Scenes/Stage3.h"
 #include "RockFall.h"
 
 class RockCreator : public BaseObject

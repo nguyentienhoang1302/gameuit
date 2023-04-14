@@ -3,11 +3,11 @@
 #ifndef __INTRO_SCENE__
 #define __INTRO_SCENE__
 
-#include "../../FrameWork/Sprite.h"
-#include "../../FrameWork/SpriteManager.h"
-#include "../../FrameWork/Managers/SoundManager.h"
-#include "../../FrameWork/InputController.h"
-#include "../../FrameWork/StopWatch.h"
+#include "../../Graphics/Sprite.h"
+#include "../Managers/SpriteManager.h"
+#include "../Managers/SoundManager.h"
+#include "../../Graphics/InputController.h"
+#include "../../Graphics/StopWatch.h"
 
 #include "../IComponent.h"
 #include "../BaseObject.h"

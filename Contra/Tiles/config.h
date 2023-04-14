@@ -3,10 +3,10 @@
 #ifndef __CONFIG_H__
 #define __CONFIG_H__
 
-#include "..\FrameWork\define.h"
-#include "..\FrameWork\Sprite.h"
-#include "..\FrameWork\SpriteManager.h"
-#include "..\pugixml-1.7\src\pugixml.hpp"
+#include "../Const.h"
+#include "../Graphics/Sprite.h"
+#include "../Game/Managers/SpriteManager.h"
+#include "..\..\Libs\pugixml-1.7\src\pugixml.hpp"
 US_FRAMEWORK
 
 

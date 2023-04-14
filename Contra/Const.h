@@ -14,8 +14,8 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "Debug.h"
-#include "Utils.h"
+#include "./Debug.h"
+#include "./Utils.h"
 using namespace std;
 
 #define WINDOW_WIDTH 512

@@ -1,14 +1,14 @@
 #ifndef _SCUBASOLDIER_H
 #define _SCUBASOLDIER_H
 
-#include "../../FrameWork/Animation.h"
-#include "../../Framework/StopWatch.h"
+#include "../../../Graphics/Animation.h"
+#include "../../../Graphics/StopWatch.h"
 #include "../CollisionBody.h"
 #include "../IComponent.h"
 #include "../Explosion.h"
 
 #include "../Bullets/Bullet.h"
-#include "../Scenes/PlayScene.h"
+#include "../../Scenes/PlayScene.h"
 #include "../Bullets/BulletManager.h"
 #include "../Bullets/Bullet.h"
 #include "BaseEnemy.h"
