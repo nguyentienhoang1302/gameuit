@@ -1,4 +1,4 @@
-#include "StopWatch.h"
+#include "../Graphics/GameTime.h"
 
 US_FRAMEWORK
 

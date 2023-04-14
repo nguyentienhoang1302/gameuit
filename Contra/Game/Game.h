@@ -49,7 +49,7 @@
 #include "../Graphics/Sprite.h"
 #include "../Graphics/GameTime.h"
 #include "../Graphics/StopWatch.h"
-#include "InputController.h"
+#include "../Graphics/InputController.h"
 #include "Managers/SceneManager.h"
 
 NS_FRAMEWORK
