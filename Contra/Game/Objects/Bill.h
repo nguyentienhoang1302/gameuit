@@ -12,11 +12,11 @@ update 30/11/2015
 #ifndef __BILL_H__
 #define __BILL_H__
 
-#include "../FrameWork/define.h"
-#include "../FrameWork/Animation.h"
-#include "../FrameWork/InputController.h"
-#include "../FrameWork/Managers/SceneManager.h"
-#include "../FrameWork/StopWatch.h"
+#include "../../Const.h"
+#include "../../Graphics/Animation.h"
+#include "./../Graphics/InputController.h"
+#include "../Managers/SceneManager.h"
+#include "./../Graphics/StopWatch.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"

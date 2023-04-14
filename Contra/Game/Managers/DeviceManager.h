@@ -2,8 +2,8 @@
 #ifndef __DEVICE_MANAGER_H__
 #define __DEVICE_MANAGER_H__
 
-#include "Config.h"
-#include "Graphic.h"
+#include "../../Const.h"
+#include "../../Graphics/Graphics.h"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

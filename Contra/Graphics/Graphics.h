@@ -4,7 +4,7 @@
 #define __GRAPHICS_H__
 
 #include <Windows.h>
-#include "Config.h"
+#include "../Const.h"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

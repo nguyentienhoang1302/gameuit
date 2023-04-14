@@ -10,10 +10,10 @@ Luu The Vinh
 
 #include <vector>
 #include <stdarg.h>
-#include "Config.h"
+#include "../Const.h"
 #include "Sprite.h"
 #include "IComponent.h"
-#include "SpriteManager.h"
+#include "../Game/Managers/SpriteManager.h"
 
 US_FRAMEWORK
 

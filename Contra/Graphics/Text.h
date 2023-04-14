@@ -2,8 +2,8 @@
 #define __TEXT_H__
 
 #include <string>
-#include "Config.h"
-#include "DeviceManager.h"
+#include "../Const.h"
+#include "../Game/Managers/DeviceManager.h"
 #include "Transformable.h"
 
 US_FRAMEWORK

@@ -1,8 +1,8 @@
 #ifndef __SCENE_H__
 #define __SCENE_H__
 
-#include "../../FrameWork/define.h"
-#include "../../FrameWork/Viewport.h"
+#include "../../Const.h"
+#include "../../Graphics/Viewport.h"
 
 class Scene
 {

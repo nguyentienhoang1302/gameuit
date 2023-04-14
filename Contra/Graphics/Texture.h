@@ -9,8 +9,8 @@
 #ifndef __texture_H__
 #define __texture_H__
 
-#include "Config.h"
-#include "DeviceManager.h"
+#include "../Const.h"
+#include "../Game/Managers/DeviceManager.h"
 #include "Viewport.h"
 
 NS_FRAMEWORK

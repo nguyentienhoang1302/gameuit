@@ -1,7 +1,7 @@
 ﻿#ifndef __VIEWPORT_H__
 #define __VIEWPORT_H__
 
-#include "Config.h"
+#include "../Const.h"
 
 /*
 	Viewport là class dùng để chuyển hệ toạ độ top-left về hệ toạ độ đê-cac

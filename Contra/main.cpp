@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <iostream>
-#include "ContraGame.h"
+#include "Game/ContraGame.h"
 
 using namespace std;
 US_FRAMEWORK

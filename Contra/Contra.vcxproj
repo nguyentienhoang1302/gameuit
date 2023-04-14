@@ -152,7 +152,7 @@
     <ClCompile Include="Graphics\TextBitmap.cpp" />
     <ClCompile Include="Graphics\Texture.cpp" />
     <ClCompile Include="Graphics\TimeSpan.cpp" />
-    <ClCompile Include="Graphics\utils.cpp" />
+    <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Graphics\Viewport.cpp" />
     <ClCompile Include="Game\Game.cpp" />
     <ClCompile Include="main.cpp" />
@@ -208,7 +208,7 @@
     <ClInclude Include="Debug.h" />
     <ClInclude Include="dxaudio.h" />
     <ClInclude Include="Graphics\Animation.h" />
-    <ClInclude Include="Graphics\define.h" />
+    <ClInclude Include="Const.h" />
     <ClInclude Include="Game\Managers\DeviceManager.h" />
     <ClInclude Include="Graphics\Event.h" />
     <ClInclude Include="Graphics\GameTime.h" />
@@ -226,7 +226,7 @@
     <ClInclude Include="Graphics\TextBitmap.h" />
     <ClInclude Include="Graphics\Texture.h" />
     <ClInclude Include="Graphics\TimeSpan.h" />
-    <ClInclude Include="Game\Utils.h" />
+    <ClInclude Include="Utils.h" />
     <ClInclude Include="Graphics\Viewport.h" />
     <ClInclude Include="Game\Game.h" />
     <ClInclude Include="Game\Objects\AirCraft.h" />

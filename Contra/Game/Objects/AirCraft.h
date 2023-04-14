@@ -7,11 +7,11 @@
 #ifndef __AIRCRAFT_H__
 #define __AIRCRAFT_H__
 
-#include "../FrameWork/Animation.h"
+#include "../../Graphics/Animation.h"
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "Explosion.h"
-#include "Scenes/PlayScene.h"
+#include "../Scenes/PlayScene.h"
 #include "Item.h"
 
 // use value

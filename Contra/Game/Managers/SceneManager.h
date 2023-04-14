@@ -2,8 +2,8 @@
 #define __SCENE_MANAGER_H__
 
 #include <vector>
-#include "../define.h"
-#include "../../objects/Scenes/Scene.h"
+#include "../../Graphics/GameTime.h"
+#include "../Scenes/Scene.h"
 
 class SceneManager
 {

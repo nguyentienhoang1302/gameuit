@@ -1,7 +1,7 @@
 ﻿#ifndef __TRANSFORMABLE_H__
 #define __TRANSFORMABLE_H__
 
-#include "Config.h"
+#include "../Const.h"
 
 class Transformable
 {

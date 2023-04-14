@@ -2,8 +2,8 @@
 #define __SPRITE_H__
 
 #include <list>
-#include "Config.h"
-#include "DeviceManager.h"
+#include "../Const.h"
+#include "../Game/Managers/DeviceManager.h"
 #include "Texture.h"
 #include "Viewport.h"
 #include "Transformable.h"

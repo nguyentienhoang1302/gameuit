@@ -5,8 +5,8 @@
 // http://www.cplusplus.com/reference/map/map
 #include <fstream>
 
-#include "Config.h"
-#include "Sprite.h"
+#include "../../Const.h"
+#include "../../Graphics/Sprite.h"
 #include "..\pugixml-1.7\src\pugixml.hpp"
 
 NS_FRAMEWORK

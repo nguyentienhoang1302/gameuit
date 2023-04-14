@@ -2,8 +2,8 @@
 
 #ifndef __SOUND_MANAGER__
 #define __SOUND_MANAGER__
-#include "Config.h"
-#include "Game.h"
+#include "../../Const.h"
+#include "../Game.h"
 #include "..\..\dxaudio.h"
 
 #include <map>

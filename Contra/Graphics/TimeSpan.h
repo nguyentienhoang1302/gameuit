@@ -1,7 +1,7 @@
 #ifndef __TIMESPAN_H__
 #define	__TIMESPAN_H__
 
-#include "Config.h"
+#include "../Const.h"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

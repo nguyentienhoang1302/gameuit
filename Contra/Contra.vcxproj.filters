@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Configs">
-      <UniqueIdentifier>{e17a3955-ca2d-4f80-b838-33ce62342ef9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Graphics">
       <UniqueIdentifier>{780b32f2-0e7d-4404-a96a-f7a724be597a}</UniqueIdentifier>
     </Filter>
@@ -73,14 +70,14 @@
     <Filter Include="Resource Files\Maps">
       <UniqueIdentifier>{09d2ecd2-a17d-4652-b05d-49ddda279182}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{18c08ca4-3d84-433c-a98a-3f7ebb86559f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Game\Game.cpp">
       <Filter>Source Files\Game</Filter>
     </ClCompile>
@@ -98,9 +95,6 @@
     </ClCompile>
     <ClCompile Include="Game\Objects\Bridge.cpp">
       <Filter>Source Files\Game\Objects</Filter>
-    </ClCompile>
-    <ClCompile Include="dxaudio.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Tiles\ObjectFactory.cpp">
       <Filter>Source Files\Tiles</Filter>
@@ -225,9 +219,6 @@
     <ClCompile Include="Graphics\TimeSpan.cpp">
       <Filter>Source Files\Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="Graphics\utils.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Game\Objects\Bullets\Beast_Bullet.cpp">
       <Filter>Source Files\Game\Objects\Bullets</Filter>
     </ClCompile>
@@ -288,6 +279,9 @@
     <ClCompile Include="Game\Objects\IComponent.cpp">
       <Filter>Source Files\Game\Objects\Enemies</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="dxaudio.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Managers\DeviceManager.h">
@@ -328,12 +322,6 @@
     </ClInclude>
     <ClInclude Include="Game\Objects\Land.h">
       <Filter>Header Files\Game\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="debug.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="dxaudio.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QNode.h">
       <Filter>Header Files</Filter>
@@ -407,7 +395,7 @@
     <ClInclude Include="Graphics\TimeSpan.h">
       <Filter>Header Files\Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Utils.h">
+    <ClInclude Include="Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Graphics\Viewport.h">
@@ -448,9 +436,6 @@
     </ClInclude>
     <ClInclude Include="Game\Objects\TextSprite.h">
       <Filter>Header Files\Game\Objects</Filter>
-    </ClInclude>
-    <ClInclude Include="Graphics\define.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Game\Objects\Bullets\Beast_Bullet.h">
       <Filter>Header Files\Game\Objects\Bullets</Filter>
@@ -509,6 +494,9 @@
     <ClInclude Include="Tiles\Tile.h">
       <Filter>Header Files\Tiles</Filter>
     </ClInclude>
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="dxaudio.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Contra.rc">

@@ -44,13 +44,13 @@
 #define __GAME_H__
 
 #include <windows.h>
-#include "Graphic.h"
-#include "DeviceManager.h"
-#include "Sprite.h"
-#include "GameTime.h"
-#include "StopWatch.h"
+#include "../Graphics/Graphics.h"
+#include "Managers/DeviceManager.h"
+#include "../Graphics/Sprite.h"
+#include "../Graphics/GameTime.h"
+#include "../Graphics/StopWatch.h"
 #include "InputController.h"
-#include "SceneManager.h"
+#include "Managers/SceneManager.h"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN

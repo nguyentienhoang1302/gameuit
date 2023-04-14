@@ -1,11 +1,11 @@
 ﻿
 #ifndef __BASEOBJECT_H__
 #define __BASEOBJECT_H__
-#include "..\FrameWork\define.h"
-#include "..\FrameWork\SpriteManager.h"
-#include "..\FrameWork\Sprite.h"
-#include "..\FrameWork\InputController.h"
-#include "..\FrameWork\Viewport.h"
+#include "../../Const.h"
+#include "../Managers/SpriteManager.h"
+#include "../../Graphics/Sprite.h"
+#include "../../Graphics/InputController.h"
+#include "../../Graphics/Viewport.h"
 
 US_FRAMEWORK
 class IControlable
