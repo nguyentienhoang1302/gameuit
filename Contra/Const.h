@@ -3,10 +3,6 @@
 
 #define _USE_MATH_DEFINES
 
-#define _ATL_ATTRIBUTES
-#include <atlbase.h>
-#include <atlcom.h>
-
 #include <d3d9.h>		// d3d9.lib
 #include <d3dx9.h>		// d3dx9.lib
 #include <dinput.h>		// dinput8.lib, dxguid.lib
