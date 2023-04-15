@@ -9,9 +9,9 @@
 #include "../../Graphics/InputController.h"
 #include "../../Graphics/StopWatch.h"
 
-#include "../IComponent.h"
-#include "../BaseObject.h"
-#include "../TextSprite.h"
+#include "../Objects/IComponent.h"
+#include "../Objects/BaseObject.h"
+#include "../Objects/TextSprite.h"
 
 #include "SelectionScene.h"
 #include "Scene.h"

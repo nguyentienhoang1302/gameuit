@@ -5,7 +5,7 @@
 #include "../Managers/SoundManager.h"
 #include "../../Graphics/Sprite.h"
 
-#include "../TextSprite.h"
+#include "../Objects/TextSprite.h"
 
 #include "BeginPlayScene.h"
 #include "Scene.h"

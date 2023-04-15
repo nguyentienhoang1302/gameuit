@@ -1,7 +1,7 @@
 ﻿#include "Bill.h"
 #include "AirCraft.h"
 
-#include "Scenes/GameOverScene.h"
+#include "../Scenes/GameOverScene.h"
 #include "Enemies/ShadowBeast.h"
 #include "Enemies/ObjectCreator.h"
 #include "Enemies/RockCreator.h"

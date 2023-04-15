@@ -6,7 +6,7 @@
 #include "../Const.h"
 #include "../Graphics/Sprite.h"
 #include "../Game/Managers/SpriteManager.h"
-#include "..\..\Libs\pugixml-1.7\src\pugixml.hpp"
+#include "../Libs/pugixml-1.7/src/pugixml.hpp"
 US_FRAMEWORK
 
 

@@ -1,5 +1,5 @@
 ﻿#include "..\..\Tiles\ObjectFactory.h"
-#include "..\Score.h"
+#include "../Objects/Score.h"
 #include "PlayScene.h"
 #include "BeginPlayScene.h"
 #include "GameOverScene.h"

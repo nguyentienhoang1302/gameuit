@@ -5,7 +5,7 @@
 #include "BaseObject.h"
 #include "IComponent.h"
 #include "CollisionBody.h"
-#include "Scenes/PlayScene.h"
+#include "../Scenes/PlayScene.h"
 
 
 #define ROCKFLY_HORIZONTAL_VELOC		GVector2(96.0f, 0.0f)		// vận tốc ngang

@@ -1,6 +1,6 @@
 ﻿#include "../../Tiles/ObjectFactory.h"
-#include "../Enemies/ShadowBeast.h"
-#include "../Score.h"
+#include "../Objects/Enemies/ShadowBeast.h"
+#include "../Objects/Score.h"
 #include "BeginPlayScene.h"
 #include "GameOverScene.h"
 #include "Stage3.h"

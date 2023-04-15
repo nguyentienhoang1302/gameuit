@@ -1,71 +1,45 @@
+
+#ifndef __STOP_WATCH__
+#define __STOP_WATCH__
+
 #include "../Graphics/GameTime.h"
 
-US_FRAMEWORK
+NS_FRAMEWORK
+NS_FRAMEWORK_BEGIN
 
-StopWatch::StopWatch()
-{
-	_stopwatch = 0.0f;
-	_isStart = false;
-	_isFinish = false;
-}
+/*
+	now we have a type are called pFunction. It's just a type stores address of function.
+	example:
+		pFunction pF = &RandomFunction;
+	or
+		pFunction pF = &ClassName::Method
 
-StopWatch::~StopWatch()
-{
-}
+	With RandomFunction and Method is a name of one function or method have no return value and argument
+*/
 
-bool StopWatch::isFinish()
-{
-	return this->_isFinish;
-}
-// milisecond
-bool StopWatch::isTimeLoop(float time)
-{
-	float _totalgametime = GameTime::getInstance()->getTotalGameTime();
-	if (_isStart == false)
-	{
-		_stopwatch = time + _totalgametime;
-		_isStart = true;
-		return false;
-	}
-	float delta = _stopwatch - _totalgametime;
-	if (delta <= 0)
-	{
-		_stopwatch = time + delta + _totalgametime;
-		return true;
-	}
-	return false;
-}
+/*
+	version 03/10/2015:
+	thêm restart
+*/
+typedef void(*pFunction)(void);
 
-bool StopWatch::isStopWatch(float time)
+class StopWatch
 {
-	if (_isFinish == true)
-		return false;
-	float _totalgametime = GameTime::getInstance()->getTotalGameTime();
+public:
+	StopWatch();
+	~StopWatch();
 
-	if (_isStart == false)
-	{
-		_stopwatch = time + _totalgametime;
-		_isStart = true;
-		return false;
-	}
-	float delta = _stopwatch - _totalgametime;
-	if (delta <= 0)
-	{
-		_isFinish = true;
-		return true;
-	}
-	return false;
-}
-void StopWatch::restart()
-{
-	_isStart = false;
-	_isFinish = false;
-}
+	bool isFinish();
+	bool isTimeLoop(float time);
+	bool isStopWatch(float time);
+	void timeLoopAction(float milisecond, pFunction action);
+	void restart();
+private:
+	float	_stopwatch;
+	bool	_isStart;
+	bool	_isFinish;
+};
 
-void StopWatch::timeLoopAction(float milisecond, pFunction action)
-{
-	if (isTimeLoop(milisecond))
-	{
-		(*action) ();
-	}
-}
+NS_FRAMEWORK_END
+
+#endif // !__STOP_WATCH__

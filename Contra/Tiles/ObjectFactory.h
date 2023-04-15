@@ -5,9 +5,9 @@
 
 #include "../Const.h"
 #include "../Libs/pugixml-1.7/src/pugixml.hpp"
-#include "../objects/Enemies/Rifleman.h"
-#include "../objects/Enemies/ObjectCreator.h"
-#include "../objects/BaseObject.h"
+#include "../Game/Objects/Enemies/Rifleman.h"
+#include "../Game/Objects/Enemies/ObjectCreator.h"
+#include "../Game/Objects/BaseObject.h"
 
 using namespace pugi;
 
