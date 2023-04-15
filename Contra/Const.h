@@ -3,6 +3,10 @@
 
 #define _USE_MATH_DEFINES
 
+#define _ATL_ATTRIBUTES
+#include <atlbase.h>
+#include <atlcom.h>
+
 #include <d3d9.h>		// d3d9.lib
 #include <d3dx9.h>		// d3dx9.lib
 #include <dinput.h>		// dinput8.lib, dxguid.lib
@@ -14,8 +18,8 @@
 #include <string>
 #include <map>
 #include <vector>
-#include "./Debug.h"
-#include "./Utils.h"
+#include "Debug.h"
+#include "Utils.h"
 using namespace std;
 
 #define WINDOW_WIDTH 512

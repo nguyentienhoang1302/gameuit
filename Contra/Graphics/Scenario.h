@@ -1,8 +1,8 @@
+#include <string>
 
 
 #ifndef __SCENARIO__
 #define __SCENARIO__
-
 #include "StopWatch.h"
 #include <queue>
 using namespace std;

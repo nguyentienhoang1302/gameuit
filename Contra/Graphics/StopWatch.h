@@ -2,7 +2,7 @@
 #ifndef __STOP_WATCH__
 #define __STOP_WATCH__
 
-#include "../Graphics/GameTime.h"
+#include "GameTime.h"
 
 NS_FRAMEWORK
 NS_FRAMEWORK_BEGIN
