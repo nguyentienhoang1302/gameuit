@@ -73,6 +73,12 @@
     <Filter Include="Libs">
       <UniqueIdentifier>{18c08ca4-3d84-433c-a98a-3f7ebb86559f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Libs\pugixml-1.7">
+      <UniqueIdentifier>{54ce34a7-9d99-4120-8089-55de61bbd35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\pugixml-1.7\src">
+      <UniqueIdentifier>{81657d50-1195-4477-acac-cf0ba1f1ff90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -282,6 +288,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="dxaudio.cpp" />
     <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Libs\pugixml-1.7\src\pugixml.hpp">
+      <Filter>Header Files\Libs\pugixml-1.7\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Managers\DeviceManager.h">

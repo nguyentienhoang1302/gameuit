@@ -4,7 +4,7 @@
 #define __F_BULLET__
 
 #include "Bullet.h"
-#include "../../FrameWork/Animation.h"
+#include "../../../Graphics/Animation.h"
 
 #define F_BULLET_SPEED		200.0f
 #define ROUND_RADIUS		600.0f

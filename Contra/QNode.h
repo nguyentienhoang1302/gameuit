@@ -1,9 +1,9 @@
 #ifndef __QNODE_H__
 #define __QNODE_H__
 
-#include "FrameWork\define.h"
-#include "objects\BaseObject.h"
-#include "pugixml-1.7\src\pugixml.hpp"
+#include "Const.h"
+#include "Game/Objects/BaseObject.h"
+#include "Libs/pugixml-1.7/src/pugixml.hpp"
 using namespace pugi;
 class QNode
 {

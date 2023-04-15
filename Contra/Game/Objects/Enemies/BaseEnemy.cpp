@@ -1,5 +1,5 @@
 #include "BaseEnemy.h"
-#include "../../FrameWork/Managers/SoundManager.h"
+#include "../../Managers/SoundManager.h"
 #include "../Score.h"
 BaseEnemy::BaseEnemy(eID id) : BaseObject(id) {}
 BaseEnemy::~BaseEnemy() {}

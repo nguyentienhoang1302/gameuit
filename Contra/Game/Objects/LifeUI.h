@@ -2,7 +2,7 @@
 #define __LIFEUI_H__
 
 #include "EmptyObject.h"
-#include "../FrameWork/define.h"
+#include ".../../../../Const.h"
 
 #define GAP 10
 
