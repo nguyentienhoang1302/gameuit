@@ -88,6 +88,12 @@
     <ClCompile Include="TransitionScan.cpp">
       <Filter>TransitionAndEffects\SceneTransition</Filter>
     </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArray.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base64.h">
@@ -176,6 +182,12 @@
     </ClInclude>
     <ClInclude Include="TransitionScan.h">
       <Filter>TransitionAndEffects\SceneTransition</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArray.h">
+      <Filter>GameComponents</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

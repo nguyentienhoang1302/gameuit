@@ -195,6 +195,7 @@
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="KeyBoard.cpp" />
     <ClCompile Include="Lighting.cpp" />
+    <ClCompile Include="Loader.cpp" />
     <ClCompile Include="LoadingScene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SceneTransition.cpp" />
@@ -202,6 +203,7 @@
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="StartingScene.cpp" />
     <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureArray.cpp" />
     <ClCompile Include="tinystr.cpp" />
     <ClCompile Include="tinyxml.cpp" />
     <ClCompile Include="tinyxmlerror.cpp" />
@@ -223,6 +225,7 @@
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="KeyBoard.h" />
     <ClInclude Include="Lighting.h" />
+    <ClInclude Include="Loader.h" />
     <ClInclude Include="LoadingScene.h" />
     <ClInclude Include="MenuScene.h" />
     <ClInclude Include="Rect.h" />
@@ -233,6 +236,7 @@
     <ClInclude Include="Sound.h" />
     <ClInclude Include="StartingScene.h" />
     <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureArray.h" />
     <ClInclude Include="tinystr.h" />
     <ClInclude Include="tinyxml.h" />
     <ClInclude Include="TransitionCircleOpen.h" />

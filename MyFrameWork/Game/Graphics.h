@@ -1,9 +1,9 @@
 #pragma once
 #include "d3d9.h"
-#include "d3dx9tex.h"
+#include <D3dx9tex.h>
 #include "string"
 #include "Rect.h"
-#include "d3dx9core.h"
+#include "D3dx9core.h"
 #include <map>
 #include "BitMapFont.h"
 
