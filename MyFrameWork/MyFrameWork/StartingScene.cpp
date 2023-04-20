@@ -35,12 +35,11 @@ StartingScene::StartingScene(void)
 		label[i] -> yPos = startPosY + offsetY * i;
 	}
 
-	label[PLAYER] -> text = "1 PLAYER";
-	label[PLAYER2] -> text = "2 PLAYERS";
-	label[HELP] -> text = "HELP";
-	label[OPTION] -> text = "OPTION";
-	label[HISCORE] -> text = "HISCORE";
-	label[QUIT] -> text = "QUIT";
+	label[PLAYER] -> text = TEXT_OPTION_PLAY;
+	label[HELP] -> text = TEXT_OPTION_HELP;
+	label[OPTION] -> text = TEXT_OPTION_OPTION;
+	label[HISCORE] -> text = TEXT_OPTION_HISCORE;
+	label[QUIT] -> text = TEXT_OPTION_QUIT;
 	cursorIndex = PLAYER;
 
 	
@@ -150,15 +149,15 @@ void StartingScene:: handleInput()
 						KeyBoard::getInstace() -> flush();
 						SceneManager::getInstance() ->createSceneWithRandomTransition( new LoadingScene());
 					}
-					else if (cursorIndex == PLAYER2)
-					{
-						Sound::getInstance() -> stop();
-						Sound::getInstance() -> play("select", false, 1);
-						UIComponents :: getInstance() -> setNumberPlayer(2);
-						KeyBoard::getInstace() -> flush();
-						SceneManager::getInstance() ->createSceneWithRandomTransition( new LoadingScene());
-					
-					}
+					//else if (cursorIndex == PLAYER2)
+					//{
+					//	Sound::getInstance() -> stop();
+					//	Sound::getInstance() -> play("select", false, 1);
+					//	UIComponents :: getInstance() -> setNumberPlayer(2);
+					//	KeyBoard::getInstace() -> flush();
+					//	SceneManager::getInstance() ->createSceneWithRandomTransition( new LoadingScene());
+					//
+					//}
 					else if ( cursorIndex == HELP)
 					{
 						Sound::getInstance() -> stop();

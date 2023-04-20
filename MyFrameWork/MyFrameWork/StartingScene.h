@@ -14,7 +14,7 @@ private:
 	enum
 	{
 		PLAYER,
-		PLAYER2,
+		//PLAYER2,
 		HELP,
 		OPTION,
 		HISCORE,
