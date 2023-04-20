@@ -16,6 +16,12 @@
     <Filter Include="TransitionAndEffects\SceneTransition">
       <UniqueIdentifier>{592e059f-8276-4453-bb22-480d4b5b23c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{5f8243c9-b023-4a38-a06c-6715fc4d30d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\States">
+      <UniqueIdentifier>{4e1e1140-b6b3-4817-a855-1a88593d5afd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="base64.cpp">
@@ -93,6 +99,30 @@
     </ClCompile>
     <ClCompile Include="TextureArray.cpp">
       <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClimbingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeadState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDivingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRunningState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSprite.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStandingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSwimmingState.cpp">
+      <Filter>Player\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +218,39 @@
     </ClInclude>
     <ClInclude Include="TextureArray.h">
       <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClimbingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeadState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDivingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFBulletMovingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRunningState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSprite.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStandingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSwimmingState.h">
+      <Filter>Player\States</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
