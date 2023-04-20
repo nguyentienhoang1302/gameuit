@@ -22,6 +22,21 @@
     <Filter Include="Player\States">
       <UniqueIdentifier>{4e1e1140-b6b3-4817-a855-1a88593d5afd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Bullets">
+      <UniqueIdentifier>{de8a4aba-03dd-4f76-8405-67c455ff23ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\GunBoss1">
+      <UniqueIdentifier>{446abd3f-3063-43d6-9640-de74bab42949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\GunBoss1\States">
+      <UniqueIdentifier>{1e6a4b7f-decf-4f99-ae76-241f7f531e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\GunBoss5">
+      <UniqueIdentifier>{5e541195-0d70-4649-b17d-43ea7c5a25b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullets\GunBoss5\States">
+      <UniqueIdentifier>{2a626046-e7eb-46ed-bcd7-aaa01b77cc6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="base64.cpp">
@@ -123,6 +138,27 @@
     </ClCompile>
     <ClCompile Include="PlayerSwimmingState.cpp">
       <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EnermyWhiteBullet.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="FBullet.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBoss1Bullet.cpp">
+      <Filter>Bullets\GunBoss1</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBoss1BulletExploringState.cpp">
+      <Filter>Bullets\GunBoss1\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBoss1BulletMovingState.cpp">
+      <Filter>Bullets\GunBoss1\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBoss5Bullet.cpp">
+      <Filter>Bullets\GunBoss5</Filter>
+    </ClCompile>
+    <ClCompile Include="GunBoss5BulletExploringState.cpp">
+      <Filter>Bullets\GunBoss5\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +287,36 @@
     </ClInclude>
     <ClInclude Include="PlayerSwimmingState.h">
       <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletMovingState.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSprite.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletState.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="EnermyWhiteBullet.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="FBullet.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss1Bullet.h">
+      <Filter>Bullets\GunBoss1</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss1BulletExploringState.h">
+      <Filter>Bullets\GunBoss1\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss1BulletMovingState.h">
+      <Filter>Bullets\GunBoss1\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss5Bullet.h">
+      <Filter>Bullets\GunBoss5</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss5BulletExploringState.h">
+      <Filter>Bullets\GunBoss5\States</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
