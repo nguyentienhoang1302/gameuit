@@ -1090,6 +1090,7 @@
     <ClInclude Include="PlayerSwimmingState.h">
       <Filter>Player\States</Filter>
     </ClInclude>
+    <ClInclude Include="Config.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ThirdParty">

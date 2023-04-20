@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "d3d9.h"
 #include <D3dx9tex.h>
 #include "string"
@@ -23,8 +23,8 @@ private:
 	LPDIRECT3DDEVICE9 pDevice; // pointer to an interface of Dx device;
 	LPDIRECT3DSURFACE9 pSurface; // pointer to front Surface
 	LPDIRECT3DSURFACE9 pBackBuffer; // pointer to back buffer
-	LPD3DXSPRITE pSpriteHandler;
-	IDirect3DVertexBuffer9* vBuffer;
+	LPD3DXSPRITE pSpriteHandler; //để lấy device và vẽ sprite lên màn hình
+	IDirect3DVertexBuffer9* vBuffer; //buffer
 	BitMapFont* font;
 
 public:

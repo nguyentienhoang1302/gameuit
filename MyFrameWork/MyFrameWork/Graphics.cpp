@@ -1,11 +1,13 @@
 
 #include "Graphics.h"
+#include "Config.h"
 
 
 
 Graphics*  Graphics :: instance = nullptr;
-const unsigned int SCWIDTH = 256;
-const unsigned int SCHEIGHT = 256;
+//set screen w+h
+const unsigned int SCWIDTH = SCREEN_WIDTH;
+const unsigned int SCHEIGHT = SCREEN_HEIGHT;
 Graphics :: Graphics(HWND hWnd)
 {
 	pD3D9 = Direct3DCreate9( D3D_SDK_VERSION );
@@ -115,7 +117,7 @@ void Graphics :: loadTexture(std:: string sourceFile, std::string name, D3DCOLOR
 			textureHolder = new TextureHolder();
 			std::wstring tempSourceFile(sourceFile.begin(), sourceFile.end());
 
-			D3DXIMAGE_INFO imgInfo;
+			D3DXIMAGE_INFO imgInfo; // thong tin image
 			D3DXGetImageInfoFromFile (tempSourceFile.c_str(), &imgInfo);
 			D3DXCreateTextureFromFileEx(
 				pDevice,

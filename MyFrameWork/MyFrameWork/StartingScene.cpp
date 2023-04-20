@@ -1,8 +1,9 @@
-
+﻿
 #include "StartingScene.h"
 #include "Graphics.h"
 #include "KeyBoard.h"
 #include "SceneManager.h"
+#include "Config.h"
 StartingScene::StartingScene(void)
 {
 	BitMapFont* font = new BitMapFont("Resources\\Fonts\\font.png", 
@@ -102,7 +103,7 @@ void StartingScene:: handleInput()
 		KeyEvent e = KeyBoard::getInstace()->readKey();
 		switch (e.getCode())
 		{
-		case VK_UP:
+		case VK_UP: //Phím mũi tên chỉ lên
 			{
 				if(e.isRelease() && !isTransitioning)
 				{
@@ -118,7 +119,7 @@ void StartingScene:: handleInput()
 				}
 			}
 			break;
-		case VK_DOWN:
+		case VK_DOWN: //Phím mũi tên chỉ xuống
 			if(e.isRelease() && !isTransitioning)
 				{
 					Sound::getInstance() -> play("cursor", false ,1);
@@ -132,7 +133,7 @@ void StartingScene:: handleInput()
 					}
 				}
 			break;
-		case VK_RETURN:
+		case KEY_SELECT_OPTION:
 			if (e.isRelease())
 			{
 				if(isTransitioning)

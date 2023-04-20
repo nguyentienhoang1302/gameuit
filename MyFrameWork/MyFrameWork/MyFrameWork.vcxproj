@@ -279,6 +279,7 @@
     <ClInclude Include="BulletScubarSoliderExPloringState.h" />
     <ClInclude Include="BulletScubarSoliderMovingState.h" />
     <ClInclude Include="BulletScubarSoliderSprite.h" />
+    <ClInclude Include="Config.h" />
     <ClInclude Include="DynamicBridgeMovingState.h" />
     <ClInclude Include="EndingScene.h" />
     <ClInclude Include="EnemyBazokaExploringState.h" />

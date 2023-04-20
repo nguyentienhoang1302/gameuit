@@ -3,6 +3,7 @@
 #include <fcntl.h>
 #include <io.h>
 #include "Sound.h"
+#include "Config.h"
 
 //#include "KeyBoard.h"
 /*
@@ -15,8 +16,6 @@
 *	Have to pass all the parameters in case they can be used
 *	@return Pointer to function to process the msg
 */
-#define FPS 60
-#define MSPF 1000.0f/ 60
 
 
 
@@ -69,20 +68,21 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR, INT)
 	wc.cbSize = sizeof( WNDCLASSEX);
 	wc.lpfnWndProc = callBack;
 	wc.hInstance = hInstance;
-	wc.lpszClassName = L"My Frame Work"; // class name
+	wc.lpszClassName = WINDOW_CLASS_NAME; // class name
 
 	RegisterClassEx(&wc);// Register the WND class
 
 	RECT rect;	// the rect represents for client area of the window
 	rect.left = 100;
-	rect.right = 100 + SCWIDTH * 2;
+	rect.right = 100 + SCWIDTH * 2; //SCWIDTH = 256 : screen width Graphics.h
 	rect.top = 100;
-	rect.bottom = 100 + SCHEIGHT * 2;
+	rect.bottom = 100 + SCHEIGHT * 2; //SCHEIGHT = 256 : screen height Graphics.h
 
 	AdjustWindowRect (&rect, WS_OVERLAPPEDWINDOW, false); // automaticlly adjust the window depend on what its size
 
-	HWND hWnd = CreateWindow (L"My Frame Work",    // create a handle window object by createWindow function
-							L"Contra 2016", 
+	HWND hWnd = CreateWindow (
+							WINDOW_CLASS_NAME,    // create a handle window object by createWindow function
+							MAIN_WINDOW_TITLE, 
 							WS_OVERLAPPEDWINDOW, 
 							rect.left, rect.top, rect.right - rect.left, rect.bottom - rect.top,
 							NULL,
@@ -150,10 +150,10 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, LPWSTR, INT)
 
 			}
 			
-			while(delta >= MSPF)
+			while(delta >= MAX_FRAME_RATE)
 			{
 				render = true;
-				delta -= MSPF;
+				delta -= MAX_FRAME_RATE;
 				game.update();
 			}
 

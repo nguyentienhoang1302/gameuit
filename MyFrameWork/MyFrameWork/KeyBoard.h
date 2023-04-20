@@ -2,6 +2,8 @@
 
 #include <queue>
 
+//su kien ban phim
+// docs : https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
 class KeyEvent
 {
 public:
