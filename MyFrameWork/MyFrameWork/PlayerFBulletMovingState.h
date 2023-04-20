@@ -2,6 +2,7 @@
 
 #include "BulletState.h"
 
+// trang thai dan
 class PlayerFBulletMovingState : public BulletState
 {
 private:

@@ -1,8 +1,7 @@
 #pragma once
 #include "PlayerState.h"
 
-
-
+// trang thai boi
 class PlayerSwimmingState: public PlayerState
 {
 public:

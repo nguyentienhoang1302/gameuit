@@ -2,6 +2,8 @@
 
 #include "PlayerState.h"
 
+// trang thai dung yen
+
 class PlayerStandingState : public PlayerState
 {
 private:

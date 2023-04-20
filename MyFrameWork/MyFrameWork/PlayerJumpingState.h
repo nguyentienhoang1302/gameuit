@@ -2,6 +2,7 @@
 
 #include "PlayerState.h"
 
+// trang thai nhay
 class PlayerJumpingState : public PlayerState
 {
 public:

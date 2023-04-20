@@ -2,6 +2,7 @@
 
 #include "PlayerState.h"
 
+// trang thai leo/treo
 class PlayerClimbingState : public PlayerState
 {
 public:

@@ -200,10 +200,13 @@
     <ClCompile Include="GunBoss1BulletMovingState.cpp" />
     <ClCompile Include="GunBoss5Bullet.cpp" />
     <ClCompile Include="GunBoss5BulletExploringState.cpp" />
+    <ClCompile Include="GunBoss5BulletMovingState.cpp" />
     <ClCompile Include="KeyBoard.cpp" />
+    <ClCompile Include="LBullet.cpp" />
     <ClCompile Include="Lighting.cpp" />
     <ClCompile Include="Loader.cpp" />
     <ClCompile Include="LoadingScene.cpp" />
+    <ClCompile Include="MBullet.cpp" />
     <ClCompile Include="PlayerClimbingState.cpp" />
     <ClCompile Include="PlayerDeadState.cpp" />
     <ClCompile Include="PlayerDivingState.cpp" />
@@ -248,10 +251,13 @@
     <ClInclude Include="GunBoss1BulletMovingState.h" />
     <ClInclude Include="GunBoss5Bullet.h" />
     <ClInclude Include="GunBoss5BulletExploringState.h" />
+    <ClInclude Include="GunBoss5BulletMovingState.h" />
     <ClInclude Include="KeyBoard.h" />
+    <ClInclude Include="LBullet.h" />
     <ClInclude Include="Lighting.h" />
     <ClInclude Include="Loader.h" />
     <ClInclude Include="LoadingScene.h" />
+    <ClInclude Include="MBullet.h" />
     <ClInclude Include="MenuScene.h" />
     <ClInclude Include="PlayerClimbingState.h" />
     <ClInclude Include="PlayerData.h" />

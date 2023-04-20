@@ -405,28 +405,7 @@
     <ClCompile Include="Graphics.cpp">
       <Filter>GameComponents</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerClimbingState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerDeadState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerDivingState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerJumpingState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerRunningState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
     <ClCompile Include="PlayerSprite.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerStandingState.cpp">
-      <Filter>Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerSwimmingState.cpp">
       <Filter>Player</Filter>
     </ClCompile>
     <ClCompile Include="ViewPort.cpp">
@@ -509,6 +488,27 @@
     </ClCompile>
     <ClCompile Include="HighScoreScene.cpp">
       <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClimbingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeadState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDivingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRunningState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStandingState.cpp">
+      <Filter>Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSwimmingState.cpp">
+      <Filter>Player\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -948,37 +948,13 @@
     <ClInclude Include="Game.h">
       <Filter>GameComponents</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerClimbingState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerData.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerDeadState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerDivingState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerFBulletMovingState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerJumpingState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerRunningState.h">
       <Filter>Player</Filter>
     </ClInclude>
     <ClInclude Include="PlayerSprite.h">
       <Filter>Player</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerStandingState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerState.h">
-      <Filter>Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerSwimmingState.h">
       <Filter>Player</Filter>
     </ClInclude>
     <ClInclude Include="ViewPort.h">
@@ -1092,6 +1068,30 @@
     <ClInclude Include="HighScoreScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
+    <ClInclude Include="PlayerClimbingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeadState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDivingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFBulletMovingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRunningState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStandingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSwimmingState.h">
+      <Filter>Player\States</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ThirdParty">
@@ -1177,6 +1177,9 @@
     </Filter>
     <Filter Include="Enemies\Boss2Final">
       <UniqueIdentifier>{b5efdacd-3de9-4dfe-9a80-285074411ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player\States">
+      <UniqueIdentifier>{5375e39d-7ad1-408d-afe1-21c511d3a85d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -2,6 +2,8 @@
 
 #include "PlayerState.h"
 #include "UIComponents.h"
+
+// trang thai chet
 class PlayerDeadState : public PlayerState
 {
 public:

@@ -160,6 +160,15 @@
     <ClCompile Include="GunBoss5BulletExploringState.cpp">
       <Filter>Bullets\GunBoss5\States</Filter>
     </ClCompile>
+    <ClCompile Include="GunBoss5BulletMovingState.cpp">
+      <Filter>Bullets\GunBoss5\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LBullet.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="MBullet.cpp">
+      <Filter>Bullets</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base64.h">
@@ -317,6 +326,15 @@
     </ClInclude>
     <ClInclude Include="GunBoss5BulletExploringState.h">
       <Filter>Bullets\GunBoss5\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GunBoss5BulletMovingState.h">
+      <Filter>Bullets\GunBoss5\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LBullet.h">
+      <Filter>Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="MBullet.h">
+      <Filter>Bullets</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
