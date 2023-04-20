@@ -16,7 +16,7 @@ StartingScene::StartingScene(void)
 									RectI(0, 0, 8, 8));
 	Graphics::getInstance() ->setFont(font);
 	UIComponents::getInstance() -> resetStage();
-	pBackGround = new Texture(PATH_BACKGOUND_GOS,"SSBackGround");
+	pBackGround = new Texture(PATH_BACKGOUND_SS,"SSBackGround");
 	pCursor = new Texture(PATH_BACKGOUND_OSCURSOR,"OScursor");
 	label = new Label*[COUNT];
 	
