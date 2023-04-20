@@ -6,17 +6,18 @@
 #include "Config.h"
 StartingScene::StartingScene(void)
 {
-	BitMapFont* font = new BitMapFont("Resources\\Fonts\\font.png", 
+	BitMapFont* font = new BitMapFont(
+									PATH_FONT_GAME, 
 									"ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,\"\"|?!/-:;&(%'+ `abcdefghi",
-									"fontByLinh",
+									"fontGame",
 									6,
 									11,
 									8,
 									RectI(0, 0, 8, 8));
 	Graphics::getInstance() ->setFont(font);
 	UIComponents::getInstance() -> resetStage();
-	pBackGround = new Texture("Resources\\BackGround\\SSBackGround.png","SSBackGround");
-	pCursor = new Texture("Resources\\BackGround\\OScursor.png","OScursor");
+	pBackGround = new Texture(PATH_BACKGOUND_GOS,"SSBackGround");
+	pCursor = new Texture(PATH_BACKGOUND_OSCURSOR,"OScursor");
 	label = new Label*[COUNT];
 	
 	startPosX = 40;

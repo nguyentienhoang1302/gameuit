@@ -20,3 +20,10 @@
 
 //Sound
 
+// Backgound Path 
+#define PATH_BACKGOUND_GOS "Resources\\BackGround\\SSBackGround.png"
+#define PATH_BACKGOUND_OSCURSOR "Resources\\BackGround\\OScursor.png"
+
+//Font Path
+#define PATH_FONT_GAME "Resources\\Fonts\\font.png"
+#define PATH_FONT_AA "Resources\\Fonts\\fontAA.png"
