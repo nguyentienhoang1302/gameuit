@@ -9,6 +9,7 @@ public:
 	virtual void onUpdate();
 	virtual void render();
 	virtual void handleInput();
+	virtual void loadSound();
 	void update();
 private:
 	enum

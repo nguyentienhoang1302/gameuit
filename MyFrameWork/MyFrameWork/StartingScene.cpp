@@ -42,11 +42,8 @@ StartingScene::StartingScene(void)
 	label[QUIT] -> text = TEXT_OPTION_QUIT;
 	cursorIndex = PLAYER;
 
-	
-
-	Sound::getInstance() -> loadSound("Resources\\Sounds\\cursor.wav", "cursor");
-	Sound::getInstance() -> loadSound("Resources\\Sounds\\select.wav", "select");
-	Sound::getInstance() -> loadSound("Resources\\Sounds\\startingscene.wav", "startingscene");
+	//load sound
+	this->loadSound();
 	Sound::getInstance() -> play( "startingscene", false , 1);
 }
 
@@ -187,4 +184,10 @@ void StartingScene:: handleInput()
 		}
 	}
 		
+}
+
+void StartingScene::loadSound() {
+	Sound::getInstance()->loadSound("Resources\\Sounds\\cursor.wav", "cursor");
+	Sound::getInstance()->loadSound("Resources\\Sounds\\select.wav", "select");
+	Sound::getInstance()->loadSound("Resources\\Sounds\\startingscene.wav", "startingscene");
 }
