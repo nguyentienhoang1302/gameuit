@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0DA9E03F-FB33-4E6F-B2A5-7A1F2A2C68A7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyFrameWork</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>zlib\include;$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>zlib\lib;$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>zlib\include;$(DXSDK_DIR)include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>zlib\lib;$(DXSDK_DIR)lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;winmm.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;winmm.lib;zdll.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="BitMapFont.cpp" />
+    <ClCompile Include="BlazerMovingState.cpp" />
+    <ClCompile Include="Boss2Final.cpp" />
+    <ClCompile Include="Boss2FinalArm.cpp" />
+    <ClCompile Include="Boss2FinalArmAttackState.cpp" />
+    <ClCompile Include="Boss2FinalArmDirectPlayerState.cpp" />
+    <ClCompile Include="Boss2FinalArmSpinningState.cpp" />
+    <ClCompile Include="Boss2FinalArmStartState.cpp" />
+    <ClCompile Include="Boss2FinalArmWaveState.cpp" />
+    <ClCompile Include="Boss2FinalBody.cpp" />
+    <ClCompile Include="Boss2FinalBullet.cpp" />
+    <ClCompile Include="Boss2FinalData.cpp" />
+    <ClCompile Include="Boss2FinalExplosionSprite.cpp" />
+    <ClCompile Include="Boss2FinalHand.cpp" />
+    <ClCompile Include="Boss2FinalHead.cpp" />
+    <ClCompile Include="Boss2FinalHeadAttackingState.cpp" />
+    <ClCompile Include="Boss2FinalHeadOpeningState.cpp" />
+    <ClCompile Include="Boss2FinalHeadShuttingState.cpp" />
+    <ClCompile Include="Boss2FinalJoint.cpp" />
+    <ClCompile Include="BulletScubarSoliderExploringState.cpp" />
+    <ClCompile Include="BulletScubarSoliderMovingState.cpp" />
+    <ClCompile Include="BulletScubarSoliderSprite.cpp" />
+    <ClCompile Include="DemoScene.cpp" />
+    <ClCompile Include="DynamicBridgeMovingState.cpp" />
+    <ClCompile Include="EnemyBazokaExploringState.cpp" />
+    <ClCompile Include="EnemyBazokaFiringState.cpp" />
+    <ClCompile Include="EnemyBazokaSprite.cpp" />
+    <ClCompile Include="EnemyBazokaStandingState.cpp" />
+    <ClCompile Include="EnemyBlazerSprite.cpp" />
+    <ClCompile Include="EnemyMineExploringState.cpp" />
+    <ClCompile Include="EnemyMineFallingState.cpp" />
+    <ClCompile Include="EnemyMineSprite.cpp" />
+    <ClCompile Include="EnemySniper.cpp" />
+    <ClCompile Include="EnemySniperData.cpp" />
+    <ClCompile Include="EnemySniperDeadState.cpp" />
+    <ClCompile Include="EnemySniperShowingState.cpp" />
+    <ClCompile Include="EnemySniperStandingState.cpp" />
+    <ClCompile Include="EnemySniperTurningState.cpp" />
+    <ClCompile Include="EnemySniperDyingState.cpp" />
+    <ClCompile Include="EnemyCannon.cpp" />
+    <ClCompile Include="EnemyCannonAppearingState.cpp" />
+    <ClCompile Include="EnemyCannonData.cpp" />
+    <ClCompile Include="EnemyCannonDeadState.cpp" />
+    <ClCompile Include="EnemyCannonPreaparingState.cpp" />
+    <ClCompile Include="EnemyCannonTurningState.cpp" />
+    <ClCompile Include="EnemyCreator.cpp" />
+    <ClCompile Include="EnemyFailingStone.cpp" />
+    <ClCompile Include="EnemyFailingStoneAppearingState.cpp" />
+    <ClCompile Include="EnemyFailingStoneData.cpp" />
+    <ClCompile Include="EnemyFailingStoneDeadState.cpp" />
+    <ClCompile Include="EnemyFailingStoneDroppingState.cpp" />
+    <ClCompile Include="EnemyFinalBoss5AppearingState.cpp" />
+    <ClCompile Include="EnemyFinalBoss5DeadState.cpp" />
+    <ClCompile Include="EnemyFinalBoss5DisappearingState.cpp" />
+    <ClCompile Include="EnemyFinalBoss5PreparingState.cpp" />
+    <ClCompile Include="EnemyFinalBoss5Sprite.cpp" />
+    <ClCompile Include="EnemyFinalBoss5WaitingState.cpp" />
+    <ClCompile Include="EnemyGunRotating.cpp" />
+    <ClCompile Include="EnemyGunRotatingClosingState.cpp" />
+    <ClCompile Include="EnemyGunRotatingData.cpp" />
+    <ClCompile Include="EnemyGunRotatingDieState.cpp" />
+    <ClCompile Include="EnemyGunRotatingOpeningState.cpp" />
+    <ClCompile Include="EnemyGunRotatingSwavelingState.cpp" />
+    <ClCompile Include="EnemyScubarSoliderData.cpp" />
+    <ClCompile Include="EnemyScubarSoliderDeadState.cpp" />
+    <ClCompile Include="EnemyScubarSoliderHidingState.cpp" />
+    <ClCompile Include="EnemyScubarSoliderShootState.cpp" />
+    <ClCompile Include="EnemyScubarSoliderSprite.cpp" />
+    <ClCompile Include="EnemySniperHidingState.cpp" />
+    <ClCompile Include="EnemySoldierDrowningState.cpp" />
+    <ClCompile Include="EnemySoldierFallingState.cpp" />
+    <ClCompile Include="EnemySoldierShootingState.cpp" />
+    <ClCompile Include="EnemyTankData.cpp" />
+    <ClCompile Include="EnemyTankExploring.cpp" />
+    <ClCompile Include="EnemyTankShootingState.cpp" />
+    <ClCompile Include="EnemyTankSprite.cpp" />
+    <ClCompile Include="EnemyTankStartingState.cpp" />
+    <ClCompile Include="EnemyWhiteBullet.cpp" />
+    <ClCompile Include="GunBoss5Bullet.cpp" />
+    <ClCompile Include="GunBoss5BulletExploringState.cpp" />
+    <ClCompile Include="GunBoss5BulletMovingState.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="ObjectBridge.cpp" />
+    <ClCompile Include="ObjectBridgeAliveState.cpp" />
+    <ClCompile Include="ObjectBridgeBody.cpp" />
+    <ClCompile Include="ObjectBridgeData.cpp" />
+    <ClCompile Include="ObjectBridgeExplosionState.cpp" />
+    <ClCompile Include="ObjectBridgeHead.cpp" />
+    <ClCompile Include="ObjectBridgeTail.cpp" />
+    <ClCompile Include="EnemyFinalBoss1DeadState.cpp" />
+    <ClCompile Include="EnemyFinalBoss1StandingState.cpp" />
+    <ClCompile Include="EnemyFinnalBoss1Sprite.cpp" />
+    <ClCompile Include="EnemyGunBoss1DeadState.cpp" />
+    <ClCompile Include="EnemyGunBoss1FiringState.cpp" />
+    <ClCompile Include="EnemyGunBoss1Sprite.cpp" />
+    <ClCompile Include="EnemyGunBoss1StandingState.cpp" />
+    <ClCompile Include="EnemyInkJumpingState.cpp" />
+    <ClCompile Include="EnemyInkSprite.cpp" />
+    <ClCompile Include="EnemyInkStandingState.cpp" />
+    <ClCompile Include="EnemySoldier.cpp" />
+    <ClCompile Include="EnemySoldierData.cpp" />
+    <ClCompile Include="EnemySoldierDestroyState.cpp" />
+    <ClCompile Include="EnemySoldierDieState.cpp" />
+    <ClCompile Include="EnemySoldierJumpingState.cpp" />
+    <ClCompile Include="EnemySoldierRunningState.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="GunBoss1Bullet.cpp" />
+    <ClCompile Include="GunBoss1BulletExploringState.cpp" />
+    <ClCompile Include="GunBoss1BulletMovingState.cpp" />
+    <ClCompile Include="KeyBoard.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="ObjectCapsuleWeapon.cpp" />
+    <ClCompile Include="ObjectCapsuleWeaponData.cpp" />
+    <ClCompile Include="ObjectCapsuleWeaponDropState.cpp" />
+    <ClCompile Include="ObjectCapsuleWeaponFlyingState.cpp" />
+    <ClCompile Include="ObjectDynamicBridgeSprite.cpp" />
+    <ClCompile Include="ObjectStaticWeapon.cpp" />
+    <ClCompile Include="ObjectStaticWeaponCloseState.cpp" />
+    <ClCompile Include="ObjectStaticWeaponData.cpp" />
+    <ClCompile Include="ObjectStaticWeaponOpenState.cpp" />
+    <ClCompile Include="ObjectStaticWeaponOutState.cpp" />
+    <ClCompile Include="ObjectData.cpp" />
+    <ClCompile Include="ObjectSprite.cpp" />
+    <ClCompile Include="ObjectState.cpp" />
+    <ClCompile Include="ObjectStaticWeaponPreparingState.cpp" />
+    <ClCompile Include="PlayerClimbingState.cpp" />
+    <ClCompile Include="PlayerDeadState.cpp" />
+    <ClCompile Include="PlayerDivingState.cpp" />
+    <ClCompile Include="FBullet.cpp" />
+    <ClCompile Include="PlayerJumpingState.cpp" />
+    <ClCompile Include="LBullet.cpp" />
+    <ClCompile Include="MBullet.cpp" />
+    <ClCompile Include="PlayerRunningState.cpp" />
+    <ClCompile Include="PlayerSprite.cpp" />
+    <ClCompile Include="PlayerStandingState.cpp" />
+    <ClCompile Include="PlayerSwimmingState.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ShipBoss5.cpp" />
+    <ClCompile Include="ShipBoss5ExploringState.cpp" />
+    <ClCompile Include="ShipBoss5MovingState.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="TankExploringSprite.cpp" />
+    <ClCompile Include="TankExploringState.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureArray.cpp" />
+    <ClCompile Include="TileLayer.cpp" />
+    <ClCompile Include="TileTmx.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="UIComponents.cpp" />
+    <ClCompile Include="ViewPort.cpp" />
+    <ClCompile Include="WindowInit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="BitMapFont.h" />
+    <ClInclude Include="BlazerMovingState.h" />
+    <ClInclude Include="Boss2Final.h" />
+    <ClInclude Include="Boss2FinalArm.h" />
+    <ClInclude Include="Boss2FinalArmAttackState.h" />
+    <ClInclude Include="Boss2FinalArmDirectPlayerState.h" />
+    <ClInclude Include="Boss2FinalArmSpinningState.h" />
+    <ClInclude Include="Boss2FinalArmStartState.h" />
+    <ClInclude Include="Boss2FinalArmWaveState.h" />
+    <ClInclude Include="Boss2FinalBody.h" />
+    <ClInclude Include="Boss2FinalBullet.h" />
+    <ClInclude Include="Boss2FinalData.h" />
+    <ClInclude Include="Boss2FinalExplosionSprite.h" />
+    <ClInclude Include="Boss2FinalHand.h" />
+    <ClInclude Include="Boss2FinalHead.h" />
+    <ClInclude Include="Boss2FinalHeadAttackingState.h" />
+    <ClInclude Include="Boss2FinalHeadOpeningState.h" />
+    <ClInclude Include="Boss2FinalHeadShuttingState.h" />
+    <ClInclude Include="Boss2FinalJoint.h" />
+    <ClInclude Include="BulletScubarSoliderExPloringState.h" />
+    <ClInclude Include="BulletScubarSoliderMovingState.h" />
+    <ClInclude Include="BulletScubarSoliderSprite.h" />
+    <ClInclude Include="DemoScene.h" />
+    <ClInclude Include="DynamicBridgeMovingState.h" />
+    <ClInclude Include="EnemyBazokaExploringState.h" />
+    <ClInclude Include="EnemyBazokaFiringState.h" />
+    <ClInclude Include="EnemyBazokaSprite.h" />
+    <ClInclude Include="EnemyBazokaStandingState.h" />
+    <ClInclude Include="EnemyBlazerSprite.h" />
+    <ClInclude Include="BulletMovingState.h" />
+    <ClInclude Include="BulletSprite.h" />
+    <ClInclude Include="BulletState.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CollisionRect.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Direction.h" />
+    <ClInclude Include="EnemyMineExploringState.h" />
+    <ClInclude Include="EnemyMineFallingState.h" />
+    <ClInclude Include="EnemyMineSprite.h" />
+    <ClInclude Include="EnemySniper.h" />
+    <ClInclude Include="EnemySniperData.h" />
+    <ClInclude Include="EnemySniperDeadState.h" />
+    <ClInclude Include="EnemySniperShowingState.h" />
+    <ClInclude Include="EnemySniperStandingState.h" />
+    <ClInclude Include="EnemySniperTurningState.h" />
+    <ClInclude Include="EnemySniperDyingState.h" />
+    <ClInclude Include="EnemyCannon.h" />
+    <ClInclude Include="EnemyCannonAppearingState.h" />
+    <ClInclude Include="EnemyCannonData.h" />
+    <ClInclude Include="EnemyCannonDeadState.h" />
+    <ClInclude Include="EnemyCannonPreaparingState.h" />
+    <ClInclude Include="EnemyCannonTurningState.h" />
+    <ClInclude Include="EnemyCreator.h" />
+    <ClInclude Include="EnemyFailingStone.h" />
+    <ClInclude Include="EnemyFailingStoneAppearingState.h" />
+    <ClInclude Include="EnemyFailingStoneData.h" />
+    <ClInclude Include="EnemyFailingStoneDeadState.h" />
+    <ClInclude Include="EnemyFailingStoneDroppingState.h" />
+    <ClInclude Include="EnemyFinalBoss5AppearingState.h" />
+    <ClInclude Include="EnemyFinalBoss5DeadState.h" />
+    <ClInclude Include="EnemyFinalBoss5DisappearingState.h" />
+    <ClInclude Include="EnemyFinalBoss5PreparingState.h" />
+    <ClInclude Include="EnemyFinalBoss5Sprite.h" />
+    <ClInclude Include="EnemyFinalBoss5WaitingState.h" />
+    <ClInclude Include="EnemyGunRotating.h" />
+    <ClInclude Include="EnemyGunRotatingClosingState.h" />
+    <ClInclude Include="EnemyGunRotatingData.h" />
+    <ClInclude Include="EnemyGunRotatingDieState.h" />
+    <ClInclude Include="EnemyGunRotatingOpeningState.h" />
+    <ClInclude Include="EnemyGunRotatingSwavelingState.h" />
+    <ClInclude Include="EnemyScubarSoliderData.h" />
+    <ClInclude Include="EnemyScubarSoliderDeadState.h" />
+    <ClInclude Include="EnemyScubarSoliderHidingState.h" />
+    <ClInclude Include="EnemyScubarSoliderShootState.h" />
+    <ClInclude Include="EnemyScubarSoliderSprite.h" />
+    <ClInclude Include="EnemySniperHidingState.h" />
+    <ClInclude Include="EnemySoldierDrowningState.h" />
+    <ClInclude Include="EnemySoldierFallingState.h" />
+    <ClInclude Include="EnemySoldierShootingState.h" />
+    <ClInclude Include="EnemyTankData.h" />
+    <ClInclude Include="EnemyTankExploring.h" />
+    <ClInclude Include="EnemyTankShootingState.h" />
+    <ClInclude Include="EnemyTankSprite.h" />
+    <ClInclude Include="EnemyTankStartingState.h" />
+    <ClInclude Include="EnemyWhiteBullet.h" />
+    <ClInclude Include="GunBoss5Bullet.h" />
+    <ClInclude Include="GunBoss5BulletExploringState.h" />
+    <ClInclude Include="GunBoss5BulletMovingState.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="ObjectBridge.h" />
+    <ClInclude Include="ObjectBridgeAliveState.h" />
+    <ClInclude Include="ObjectBridgeBody.h" />
+    <ClInclude Include="ObjectBridgeData.h" />
+    <ClInclude Include="ObjectBridgeExplosionState.h" />
+    <ClInclude Include="ObjectBridgeHead.h" />
+    <ClInclude Include="ObjectBridgeTail.h" />
+    <ClInclude Include="EnemyData.h" />
+    <ClInclude Include="EnemyFinalBoss1Sprite.h" />
+    <ClInclude Include="EnemyFinalBoss1DeadState.h" />
+    <ClInclude Include="EnemyFinalBoss1StandingState.h" />
+    <ClInclude Include="EnemyGunBoss1DeadState.h" />
+    <ClInclude Include="EnemyGunBoss1FiringState.h" />
+    <ClInclude Include="EnemyGunBoss1Sprite.h" />
+    <ClInclude Include="EnemyGunBoss1StandingState.h" />
+    <ClInclude Include="EnemyInkJumpingState.h" />
+    <ClInclude Include="EnemyInkStandingState.h" />
+    <ClInclude Include="EnemySoldier.h" />
+    <ClInclude Include="EnemySoldierData.h" />
+    <ClInclude Include="EnemySoldierDestroyState.h" />
+    <ClInclude Include="EnemySoldierDieState.h" />
+    <ClInclude Include="EnemySoldierJumpingState.h" />
+    <ClInclude Include="EnemySoldierRunningState.h" />
+    <ClInclude Include="EnemySprite.h" />
+    <ClInclude Include="EnemyState.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="EnemyInkSprite.h" />
+    <ClInclude Include="GunBoss1Bullet.h" />
+    <ClInclude Include="GunBoss1BulletExploringState.h" />
+    <ClInclude Include="GunBoss1BulletMovingState.h" />
+    <ClInclude Include="KeyBoard.h" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectCapsuleWeapon.h" />
+    <ClInclude Include="ObjectCapsuleWeaponData.h" />
+    <ClInclude Include="ObjectCapsuleWeaponDropState.h" />
+    <ClInclude Include="ObjectCapsuleWeaponFlyingState.h" />
+    <ClInclude Include="ObjectDynamicBridgeSprite.h" />
+    <ClInclude Include="ObjectStaticWeapon.h" />
+    <ClInclude Include="ObjectStaticWeaponCloseState.h" />
+    <ClInclude Include="ObjectStaticWeaponData.h" />
+    <ClInclude Include="ObjectStaticWeaponOpenState.h" />
+    <ClInclude Include="ObjectStaticWeaponOutState.h" />
+    <ClInclude Include="ObjectData.h" />
+    <ClInclude Include="ObjectSprite.h" />
+    <ClInclude Include="ObjectState.h" />
+    <ClInclude Include="ObjectStaticWeaponPreparingState.h" />
+    <ClInclude Include="PlayerClimbingState.h" />
+    <ClInclude Include="PlayerData.h" />
+    <ClInclude Include="PlayerDeadState.h" />
+    <ClInclude Include="PlayerDivingState.h" />
+    <ClInclude Include="FBullet.h" />
+    <ClInclude Include="PlayerFBulletMovingState.h" />
+    <ClInclude Include="PlayerJumpingState.h" />
+    <ClInclude Include="MBullet.h" />
+    <ClInclude Include="LBullet.h" />
+    <ClInclude Include="PlayerRunningState.h" />
+    <ClInclude Include="PlayerSprite.h" />
+    <ClInclude Include="PlayerStandingState.h" />
+    <ClInclude Include="PlayerState.h" />
+    <ClInclude Include="PlayerSwimmingState.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ShipBoss5.h" />
+    <ClInclude Include="ShipBoss5ExploringState.h" />
+    <ClInclude Include="ShipBoss5MovingState.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteData.h" />
+    <ClInclude Include="SpriteState.h" />
+    <ClInclude Include="TankExploringSprite.h" />
+    <ClInclude Include="TankExploringState.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureArray.h" />
+    <ClInclude Include="TileLayer.h" />
+    <ClInclude Include="TileSet.h" />
+    <ClInclude Include="TileTmx.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="UIComponents.h" />
+    <ClInclude Include="ViewPort.h" />
+    <ClInclude Include="zconf.h" />
+    <ClInclude Include="zlib.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
