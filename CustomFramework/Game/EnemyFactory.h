@@ -8,6 +8,7 @@
 #include "EnemyBazokaMan.h"
 #include "EnemyRunMan.h"
 #include "EnemyBoss.h"
+#include "EnemySoldier.h"
 
 class EnemyFactory
 {
@@ -27,6 +28,7 @@ public:
 		case 6: return new EnemyBazokaMan();
 		case 7: return new EnemyRunMan();
 		case 8: return new EnemyBoss();
+		case 25: return new EnemySoldier();
 		default: return NULL;
 		}
 	}

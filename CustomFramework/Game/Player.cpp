@@ -205,6 +205,7 @@ void Player::Update(float dt, std::unordered_set<Object*> ColliableObjects)
 		Sound::getInstance()->play("injured");
 		this->isReverse = (result.nx == 1);
 		this->ChangeState(new PlayerInjuredState());
+		
 	}
 }
 

@@ -63,6 +63,12 @@ void SpriteFactory::LoadResources()
 	sprites->AddSprite(new WeaponSprite(BIGEXPLODED, 380, 0, 420, 40));
 
 	// ======================== ENEMY SPRITE ====================
+
+	sprites->AddSprite(new EnemySprite(SOLIDER, 90, 0, 106, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 72, 0, 88, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 54, 0, 70, 32));
+
+
 	sprites->AddSprite(new EnemySprite(SWORDMAN, 211, 47, 240, 90));
 	sprites->AddSprite(new EnemySprite(SWORDMAN, 240, 47, 269, 90));
 	sprites->AddSprite(new EnemySprite(SWORDMAN, 278, 47, 307, 90));
@@ -86,6 +92,7 @@ void SpriteFactory::LoadResources()
 	sprites->AddSprite(new EnemySprite(EAGLE, 500, 54, 526, 92));
 	sprites->AddSprite(new EnemySprite(BOSS, 348, 248, 388, 298));
 	sprites->AddSprite(new EnemySprite(BOSS, 394, 242, 434, 292));
+
 
 	// =========================== HOLDER SPRITE ========================
 	sprites->AddSprite(new HolderSprite(BUTTERFLY, 83, 55, 96, 70));

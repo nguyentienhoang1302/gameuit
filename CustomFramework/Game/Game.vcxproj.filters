@@ -40,23 +40,8 @@
     <ClCompile Include="EnemySprite.cpp">
       <Filter>Objects\Enemy</Filter>
     </ClCompile>
-    <ClCompile Include="EnemySwordMan.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Components</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyCloakMan.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyEagle.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyGunMan.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyPanther.cpp">
-      <Filter>Objects\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Cell.cpp">
       <Filter>Components</Filter>
@@ -75,12 +60,6 @@
     </ClCompile>
     <ClCompile Include="WeaponBlueShuriken.cpp">
       <Filter>Objects\Weapon</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyBazokaMan.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
-    <ClCompile Include="EnemyRunMan.cpp">
-      <Filter>Objects\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="WeaponRedShuriken.cpp">
       <Filter>Objects\Weapon</Filter>
@@ -103,9 +82,6 @@
     <ClCompile Include="Animation.cpp">
       <Filter>Graphics</Filter>
     </ClCompile>
-    <ClCompile Include="EnemyBoss.cpp">
-      <Filter>Objects\Enemy</Filter>
-    </ClCompile>
     <ClCompile Include="Sound.cpp">
       <Filter>Components</Filter>
     </ClCompile>
@@ -126,6 +102,33 @@
     </ClCompile>
     <ClCompile Include="Object.cpp">
       <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySoldier.cpp">
+      <Filter>Objects\Enemy\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBazokaMan.cpp">
+      <Filter>Objects\Enemy\Bazoka</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>Objects\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCloakMan.cpp">
+      <Filter>Objects\Enemy\CloakMan</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyEagle.cpp">
+      <Filter>Objects\Enemy\Eagle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGunMan.cpp">
+      <Filter>Objects\Enemy\GunMan</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPanther.cpp">
+      <Filter>Objects\Enemy\Panther</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRunMan.cpp">
+      <Filter>Objects\Enemy\RunMan</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySwordMan.cpp">
+      <Filter>Objects\Enemy\SwordMan</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -177,25 +180,10 @@
     <ClInclude Include="EnemySprite.h">
       <Filter>Objects\Enemy</Filter>
     </ClInclude>
-    <ClInclude Include="EnemySwordMan.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Components</Filter>
     </ClInclude>
-    <ClInclude Include="EnemyCloakMan.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyEagle.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="EnemyFactory.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyGunMan.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyPanther.h">
       <Filter>Objects\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Holder.h">
@@ -297,14 +285,8 @@
     <ClInclude Include="HolderBird.h">
       <Filter>Objects\Holder</Filter>
     </ClInclude>
-    <ClInclude Include="EnemyBazokaMan.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="BulletBazokaMan.h">
       <Filter>Objects\Bullet</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyRunMan.h">
-      <Filter>Objects\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="ItemRedShuriken.h">
       <Filter>Objects\Item</Filter>
@@ -330,9 +312,6 @@
     <ClInclude Include="Animation.h">
       <Filter>Graphics</Filter>
     </ClInclude>
-    <ClInclude Include="EnemyBoss.h">
-      <Filter>Objects\Enemy</Filter>
-    </ClInclude>
     <ClInclude Include="BulletBoss.h">
       <Filter>Objects\Bullet</Filter>
     </ClInclude>
@@ -353,6 +332,33 @@
     </ClInclude>
     <ClInclude Include="Object.h">
       <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySoldier.h">
+      <Filter>Objects\Enemy\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBazokaMan.h">
+      <Filter>Objects\Enemy\Bazoka</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>Objects\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCloakMan.h">
+      <Filter>Objects\Enemy\CloakMan</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyEagle.h">
+      <Filter>Objects\Enemy\Eagle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGunMan.h">
+      <Filter>Objects\Enemy\GunMan</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPanther.h">
+      <Filter>Objects\Enemy\Panther</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRunMan.h">
+      <Filter>Objects\Enemy\RunMan</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySwordMan.h">
+      <Filter>Objects\Enemy\SwordMan</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -388,6 +394,33 @@
     </Filter>
     <Filter Include="Scoreboard">
       <UniqueIdentifier>{835bcb8e-9a32-4e40-bbe4-1b80aaf07b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Bazoka">
+      <UniqueIdentifier>{45af7c25-462f-4275-b920-1697a1b66a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Boss">
+      <UniqueIdentifier>{2522edd7-8fad-428b-a98c-c08d435b611e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\CloakMan">
+      <UniqueIdentifier>{757d927b-28c5-4368-b4be-d57b9400a8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Eagle">
+      <UniqueIdentifier>{064f2db8-6d71-4f70-8bc2-67b6ffec8f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\GunMan">
+      <UniqueIdentifier>{41a578e7-2ce6-4564-8c74-e74b6a1c5309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Panther">
+      <UniqueIdentifier>{177a07da-fbf0-4bab-8f36-376937fdc267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\RunMan">
+      <UniqueIdentifier>{547dfa10-d452-48d6-b338-73468e44494d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\SwordMan">
+      <UniqueIdentifier>{56cdcfad-8891-4bd4-9583-91c380a977f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Soldier">
+      <UniqueIdentifier>{d35cb647-8fb5-48c6-b5ed-10192fa4a6d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

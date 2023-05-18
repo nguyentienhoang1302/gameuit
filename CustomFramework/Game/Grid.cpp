@@ -250,6 +250,7 @@ Grid::Grid(int level)
 			switch (enemy->type)
 			{
 			case SWORDMAN:
+			case SOLIDER:
 			case CLOAKMAN:
 			case GUNMAN:
 			case PANTHER:
