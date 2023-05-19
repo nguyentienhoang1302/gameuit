@@ -9,6 +9,7 @@
 #include "EnemyRunMan.h"
 #include "EnemyBoss.h"
 #include "EnemySoldier.h"
+#include "EnemyCannon.h"
 
 class EnemyFactory
 {
@@ -20,15 +21,16 @@ public:
 	{
 		switch (enemyID)
 		{
-		case 1: return new EnemySwordMan();
-		case 2: return new EnemyGunMan();
-		case 3: return new EnemyPanther();
-		case 4: return new EnemyEagle();
-		case 5: return new EnemyCloakMan();
-		case 6: return new EnemyBazokaMan();
-		case 7: return new EnemyRunMan();
-		case 8: return new EnemyBoss();
-		case 25: return new EnemySoldier();
+		case SWORDMAN: return new EnemySwordMan();
+		case GUNMAN: return new EnemyGunMan();
+		case PANTHER: return new EnemyPanther();
+		case EAGLE: return new EnemyEagle();
+		case CLOAKMAN: return new EnemyCloakMan();
+		case BAZOKAMAN: return new EnemyBazokaMan();
+		case RUNMAN: return new EnemyRunMan();
+		case BOSS: return new EnemyBoss();
+		case SOLIDER: return new EnemySoldier();
+		case CANNON: return new EnemyCannon();
 		default: return NULL;
 		}
 	}

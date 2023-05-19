@@ -20,7 +20,7 @@ IntroScene::~IntroScene()
 
 void IntroScene::Render()
 {
-	nameSprite->ScaleRender(nameSprite->posX, nameSprite->posY, 2, 2);
+	nameSprite->Render(nameSprite->posX, nameSprite->posY);
 }
 
 void IntroScene::Update(float dt)

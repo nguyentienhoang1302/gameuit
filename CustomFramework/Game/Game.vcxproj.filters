@@ -130,6 +130,9 @@
     <ClCompile Include="EnemySwordMan.cpp">
       <Filter>Objects\Enemy\SwordMan</Filter>
     </ClCompile>
+    <ClCompile Include="EnemyCannon.cpp">
+      <Filter>Objects\Enemy\Cannon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -360,6 +363,9 @@
     <ClInclude Include="EnemySwordMan.h">
       <Filter>Objects\Enemy\SwordMan</Filter>
     </ClInclude>
+    <ClInclude Include="EnemyCannon.h">
+      <Filter>Objects\Enemy\Cannon</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Components">
@@ -421,6 +427,9 @@
     </Filter>
     <Filter Include="Objects\Enemy\Soldier">
       <UniqueIdentifier>{d35cb647-8fb5-48c6-b5ed-10192fa4a6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\Cannon">
+      <UniqueIdentifier>{5fcd7862-6fe6-4780-9ffb-101f518a99dc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

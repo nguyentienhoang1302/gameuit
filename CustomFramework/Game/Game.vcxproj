@@ -142,6 +142,7 @@
     <ClCompile Include="EndScene.cpp" />
     <ClCompile Include="EnemyBazokaMan.cpp" />
     <ClCompile Include="EnemyBoss.cpp" />
+    <ClCompile Include="EnemyCannon.cpp" />
     <ClCompile Include="EnemyCloakMan.cpp" />
     <ClCompile Include="EnemyEagle.cpp" />
     <ClCompile Include="EnemyGunMan.cpp" />
@@ -195,6 +196,7 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyBazokaMan.h" />
     <ClInclude Include="EnemyBoss.h" />
+    <ClInclude Include="EnemyCannon.h" />
     <ClInclude Include="EnemyCloakMan.h" />
     <ClInclude Include="EnemyEagle.h" />
     <ClInclude Include="EnemyFactory.h" />

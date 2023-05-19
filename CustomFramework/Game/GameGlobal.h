@@ -222,7 +222,8 @@ extern enum Type
 	REDBAG,
 	FIREWHEEL,
 	REDPOTION,
-	SOLIDER
+	SOLIDER,
+	CANNON
 };
 
 extern enum State
