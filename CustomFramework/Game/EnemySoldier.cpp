@@ -2,8 +2,8 @@
 
 EnemySoldier::EnemySoldier()
 {
-	animations[STANDING] = new Animation(ENEMY, 11, 11);
-	animations[RUNNING] = new Animation(ENEMY, 12, 15, DEFAULT_TPF << 1);
+	animations[STANDING] = new Animation(ENEMY, 6, 6);
+	animations[RUNNING] = new Animation(ENEMY, 0, 5, DEFAULT_TPF << 1);
 	tag = ENEMY;
 	type = SOLIDER;
 	width = ENEMY_SWORDMAN_WIDTH;

@@ -12,13 +12,10 @@ void TextureFactory::LoadResources()
 	textures->AddTexture(MAP3, "Resources\\Textures\\tiles3.png");
 	textures->AddTexture(ITEM, "Resources\\Textures\\item.png");
 	//textures->AddTexture(ENEMY, "Resources\\Textures\\enemy.png");
-	textures->AddTexture(ENEMY, "Resources\\Image\\Enemies.png");
+	textures->AddTexture(ENEMY, "Resources\\Images\\Enemies.png");
 	textures->AddTexture(FONT, "Resources\\Textures\\font.png");
 	textures->AddTexture(INTROSCENE, "Resources\\Textures\\intro.png");
 	textures->AddTexture(ENDSCENE, "Resources\\Textures\\end.png");
-
-	// Enemy
-	textures->AddTexture(ENEMY, "Resources\\Images\\Soldier.png");
 
 }
 
