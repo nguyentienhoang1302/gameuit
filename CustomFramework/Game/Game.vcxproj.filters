@@ -10,43 +10,10 @@
     <ClCompile Include="Player.cpp">
       <Filter>Objects\Player</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerAttackingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerClimbingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerClingingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerFallingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerInjuredState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerJumpingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerRunningState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerSittingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="PlayerStandingState.cpp">
-      <Filter>Objects\Player</Filter>
-    </ClCompile>
     <ClCompile Include="EnemySprite.cpp">
       <Filter>Objects\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>Components</Filter>
-    </ClCompile>
-    <ClCompile Include="Cell.cpp">
-      <Filter>Components</Filter>
-    </ClCompile>
-    <ClCompile Include="Grid.cpp">
       <Filter>Components</Filter>
     </ClCompile>
     <ClCompile Include="PlayScene.cpp">
@@ -133,6 +100,42 @@
     <ClCompile Include="EnemyCannon.cpp">
       <Filter>Objects\Enemy\Cannon</Filter>
     </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Components\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Components\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttackingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClimbingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClingingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFallingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInjuredState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerRunningState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSittingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStandingState.cpp">
+      <Filter>Objects\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRifleMan.cpp">
+      <Filter>Objects\Enemy\RifleMan</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -147,31 +150,7 @@
     <ClInclude Include="Player.h">
       <Filter>Objects\Player</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerClimbingState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerClingingState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerFallingState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerInjuredState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerJumpingState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerRunningState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerSittingState.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerSprite.h">
-      <Filter>Objects\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerStandingState.h">
       <Filter>Objects\Player</Filter>
     </ClInclude>
     <ClInclude Include="PlayerState.h">
@@ -198,12 +177,6 @@
     <ClInclude Include="HolderSprite.h">
       <Filter>Objects\Holder</Filter>
     </ClInclude>
-    <ClInclude Include="Cell.h">
-      <Filter>Components</Filter>
-    </ClInclude>
-    <ClInclude Include="Grid.h">
-      <Filter>Components</Filter>
-    </ClInclude>
     <ClInclude Include="PlayScene.h">
       <Filter>Scenes</Filter>
     </ClInclude>
@@ -212,9 +185,6 @@
     </ClInclude>
     <ClInclude Include="SceneManager.h">
       <Filter>Scenes</Filter>
-    </ClInclude>
-    <ClInclude Include="PlayerAttackingState.h">
-      <Filter>Objects\Player</Filter>
     </ClInclude>
     <ClInclude Include="WeaponSprite.h">
       <Filter>Objects\Weapon</Filter>
@@ -366,6 +336,45 @@
     <ClInclude Include="EnemyCannon.h">
       <Filter>Objects\Enemy\Cannon</Filter>
     </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Components\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Components\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttackingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClimbingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClingingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFallingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInjuredState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerRunningState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSittingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStandingState.h">
+      <Filter>Objects\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRifleMan.h">
+      <Filter>Objects\Enemy\RifleMan</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Components">
@@ -430,6 +439,15 @@
     </Filter>
     <Filter Include="Objects\Enemy\Cannon">
       <UniqueIdentifier>{5fcd7862-6fe6-4780-9ffb-101f518a99dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Grid">
+      <UniqueIdentifier>{0ace7851-f73f-497e-baef-a22dabb359b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player\States">
+      <UniqueIdentifier>{35495baf-f831-49a3-9d0f-f0abff067791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy\RifleMan">
+      <UniqueIdentifier>{7d5c0996-04c8-4b11-b082-2e5d7a9d45eb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

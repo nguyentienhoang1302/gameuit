@@ -223,7 +223,8 @@ extern enum Type
 	FIREWHEEL,
 	REDPOTION,
 	SOLIDER,
-	CANNON
+	CANNON,
+	RIFLEMAN,
 };
 
 extern enum State

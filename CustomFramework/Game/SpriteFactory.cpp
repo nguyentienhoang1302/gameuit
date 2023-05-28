@@ -64,9 +64,29 @@ void SpriteFactory::LoadResources()
 
 	// ======================== ENEMY SPRITE ====================
 
-	sprites->AddSprite(new EnemySprite(SOLIDER, 90, 0, 106, 32));
-	sprites->AddSprite(new EnemySprite(SOLIDER, 72, 0, 88, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 0, 0, 16, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 18, 0, 34, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 36, 0, 52, 32));
 	sprites->AddSprite(new EnemySprite(SOLIDER, 54, 0, 70, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 72, 0, 88, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 90, 0, 106, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 108, 0, 124, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 126, 0, 150, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 152, 0, 176, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 178, 0, 210, 32));
+	sprites->AddSprite(new EnemySprite(SOLIDER, 212, 0, 227, 32));
+
+
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 0, 32, 23, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 26, 32, 49, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 52, 32, 69, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 72, 32, 89, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 92, 32, 115, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 119, 32, 125, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 128, 32, 150, 70));
+	sprites->AddSprite(new EnemySprite(RIFLEMAN, 153, 32, 176, 70));
+
+
 
 
 	sprites->AddSprite(new EnemySprite(SWORDMAN, 211, 47, 240, 90));
